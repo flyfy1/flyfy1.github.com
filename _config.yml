@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
+# auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
@@ -119,8 +119,8 @@ JB :
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
-  #   pages_list :
-  #     provider : "custom"   
+  # pages_list :
+  #   provider : "custom"   
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
