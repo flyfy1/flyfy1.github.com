@@ -26,8 +26,9 @@ tagline: Info About the Author
 while stillAlive do
   while goalNotYetReached do
     workWithPassion
-  checkCorrectGoal
+    sleepWithPassion
   end
+  goalColibration
 end
 
 {% endhighlight %}
