@@ -15,7 +15,7 @@ tagline: Info About the Author
 * Email: <flyfy1@gmail.com>
 * On SNS:
   - [RenRen](http://www.renren.com/251249960)
-  - [Facebook](://www.facebook.com/flyfy1)
+  - [Facebook](http://www.facebook.com/flyfy1)
   - [StackOverFlow](http://stackoverflow.com/users/799550/songyy)
 
 ### Inspiration
