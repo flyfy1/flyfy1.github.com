@@ -1,0 +1,21 @@
+#sidebar-static{
+  position: fixed;
+  left:0px;
+  top: 100px;
+}
+
+#sidebar-ctrl{
+  display: inline-block;
+  width: 10px;
+  height:100px;
+  background-color: #456;
+  cursor: pointer;
+}
+
+#sidebar-main{
+  width: 200px;
+  height: 400px;
+  display: inline-block;
+  background-color: #111;
+}
+
