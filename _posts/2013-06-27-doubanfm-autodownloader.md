@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "豆瓣音乐自动下载"
-description: ""
+title: 豆瓣音乐自动下载
+description: Auto Donwloader of Douban File.
 category: "project"
 tags: ["douban","project","chrome"]
 ---
@@ -14,7 +14,7 @@ tags: ["douban","project","chrome"]
 ## 如何安装：
 1. 下载Dev版本的Google Chrome，[这里](http://www.chromium.org/getting-involved/dev-channel)选择`Dev channel`，对应你的系统: Windows / Mac / Linux，并替换掉现在的GoogleChrome（设置都会保存的）。需要这个版本是因为只有Dev Channel的GoogleChrome才提供了自动下载新文件的API。
 2. 开启`Experimental API`功能:去[chrome extension page](chrome://extensions/)（link：`chrome://flags/`），搜索`Experimental Extension APIs`，点`enable`。
-3. 下载这个GoogleChrome的扩展：[DoubanFM AutoDownloader](/assets/project/doubanDownloader.crx)。下载时最好右键选中点选`另存为`。然后找到刚刚下载到的文件，在浏览器的地址栏输入`chrome://extensions`，把刚刚下载的那个文件拖到Chrome Extensions的页面中。
+3. 下载这个GoogleChrome的扩展：[DoubanFM AutoDownloader](/project/doubanDownloader.crx)。下载时最好右键选中点选`另存为`。然后找到刚刚下载到的文件，在浏览器的地址栏输入`chrome://extensions`，把刚刚下载的那个文件拖到Chrome Extensions的页面中。
 
 
 
