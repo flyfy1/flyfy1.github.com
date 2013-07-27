@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 豆瓣音乐自动下载
-description: Auto Donwloader of Douban File.
+title: "豆瓣音乐自动下载"
+description: "Auto Donwloader of Douban File."
 category: "project"
 tags: ["douban","project","chrome"]
 ---
@@ -29,3 +29,4 @@ tags: ["douban","project","chrome"]
 > 我没有尝试过，但GoogleChrome应该还是会认为有下载过这个歌曲的，因为下载记录里面有这个歌曲的信息。
 
 反馈信息：欢迎发送Email给我：<flyfy1@gmail.com>。
+Project on GitHub: <https://github.com/flyfy1/doubanFMDownloader>

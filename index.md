@@ -13,10 +13,11 @@ tagline: Info About the Author
 
 ### Contact:
 * Email: <flyfy1@gmail.com>
-* On SNS:
+* On the Web:
   - [RenRen](http://www.renren.com/251249960)
   - [Facebook](http://www.facebook.com/flyfy1)
   - [StackOverFlow](http://stackoverflow.com/users/799550/songyy)
+  - [LinkedIn](http://www.linkedin.com/profile/view?id=74008868)
 
 ### Inspiration
 
