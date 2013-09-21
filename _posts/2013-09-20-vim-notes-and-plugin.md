@@ -24,6 +24,15 @@ List of Plugins for VIM:
 - vim-sensible
 - vim-surround
 
+Make it easier, the shell script: (sensible and pathogen not included)
+
+    cd ~/.vim/bundle
+    git clone https://github.com/scrooloose/nerdtree.git
+    git clone https://github.com/vim-scripts/taglist.vim
+    git clone https://github.com/vim-scripts/taglist.vim.git
+    git clone https://github.com/tpope/vim-surround.git
+
+
 After the pathogen is installed, add `execute pathogen#infect()` into the `vimrc`.
 
 ### For the ease of use, add these lines into vimrc also:
