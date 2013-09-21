@@ -39,7 +39,14 @@ After the pathogen is installed, add `execute pathogen#infect()` into the `vimrc
 - Taglist:  `nnoremap <silent> <F8> :TlistToggle<CR>`
 - NERDTree: `nnoremap <silent> <F9> :NERDTreeToggle<CR>`
 
-Additionally, this command is for loading the plugin's help file into vim's help: `:execute pathogen#helptags()`.
+Additionally, this command is for loading the plugin's help file into vim's help: 
+  `:execute pathogen#helptags()`.
 Running it once is sufficient enough
 
 
+The default ctags might not be so powerful to support, thus one needs to install exuberant-ctags.
+For Mac users, if you have home brew, then just do:
+
+    brew install ctags
+
+And then you can enjoy these plugins.
