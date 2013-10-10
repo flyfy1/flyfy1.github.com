@@ -50,3 +50,10 @@ For Mac users, if you have home brew, then just do:
     brew install ctags
 
 And then you can enjoy these plugins.
+
+
+
+### Update:
+Vim-Slim:
+
+  git clone git@github.com:slim-template/vim-slim.git
