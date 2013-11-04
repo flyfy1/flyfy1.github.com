@@ -22,7 +22,7 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
 
 3. Install the commonly used softwared:
 
-    sudo apt-get install vim git
+    sudo apt-get install vim git sqlite
 
 4. Some Personal Preferences:
   - set vi mode: in file  ~/.inputrc or /etc/inputrc, set: 
@@ -34,4 +34,4 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
 
 5. Install RVM, Ruby, and Rails, following post: <https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm>
 
-
+6. Install NodeJS: <http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10>
