@@ -32,6 +32,8 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
     
   - setup vim: </superuser/2013/09/20/vim-notes-and-plugin/>
 
+  - setup locate database:  `updatedb`
+
 5. Install RVM, Ruby, and Rails, following post: <https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm>
 
 6. Install NodeJS: <http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10>
