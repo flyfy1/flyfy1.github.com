@@ -31,9 +31,43 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
     set keymap vi-command
     
   - setup vim: </superuser/2013/09/20/vim-notes-and-plugin/>
+  
+  - setup git:
+    
+    git config --global user.name "User Name"
+    git config --global user.email "Email Address"
+    git config --global core.editor vim
+    git config --global merge.tool vimdiff
 
   - setup locate database:  `updatedb`
 
 5. Install RVM, Ruby, and Rails, following post: <https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm>
 
 6. Install NodeJS: <http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10>
+
+7. Install & Setup Nginx with PHP:
+    
+    sudo apt-get install nginx php5-fpm
+  
+  Start PHP Service:
+  
+    sudo service php5-fpm restart
+  
+  Start Nginx:
+  
+    sudo service nginx restart
+
+  Edit the setting file, in the directory `/etc/nginx/conf.d/nameWhatYouWant.conf`, put in the server settings:
+  
+    server{
+      listen        8082;
+      root          /var/www;
+
+      location ~ \.php$ {
+        fastcgi_pass  localhost:9000;
+        fastcgi_param SCRIPT_FILENAME
+                      $document_root$fastcgi_script_name;
+        include       fastcgi_params;
+      }
+    }
+
