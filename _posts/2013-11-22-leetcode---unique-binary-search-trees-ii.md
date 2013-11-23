@@ -10,4 +10,4 @@ tags: ['recursion']
 I am thinking to put the LeetCode solution here, as I am solving LeetCode problems to prepare for the interviews (and.. to escape from reviewing for my Final exams these days.. which are quite boring). Here it starts.
 
 {% highlight cpp %}
-{% endhighlight %}
+{% endhiglight %}
