@@ -46,4 +46,4 @@ result.
         return profit;
     }
 
-{% endhiglight %}
+{% endhighlight %}

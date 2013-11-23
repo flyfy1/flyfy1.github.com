@@ -35,4 +35,4 @@ Idea is pretty similiar to `Binary Tree Zigzag Level Order Traversal` -- Travers
         traverse(root->left, res, lvl+1);
         traverse(root->right, res, lvl+1);
     }
-{% endhiglight %}
+{% endhighlight %}

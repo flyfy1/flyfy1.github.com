@@ -32,4 +32,4 @@ BFS traverse through the tree, record each level in order; reverse the necessary
         traverse(root->left, res, lvl+1);
         traverse(root->right, res, lvl+1);
     }
-{% endhiglight %}
+{% endhighlight %}

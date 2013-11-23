@@ -36,4 +36,5 @@ Therefore, one need to check the size of the price vector first.
         }
         return profit;
     }
-{% endhiglight %}
+
+{% endhighlight %}

@@ -28,5 +28,5 @@ public:
         return hasCycle(head,head->next);
     }
 };
-{% endhiglight %}
+{% endhighlight %}
 
