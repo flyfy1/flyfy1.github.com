@@ -11,7 +11,7 @@ I definitely need more practice on the list operations.
 
 For this problem, I created a corresponding complete Cpp program to debug the code.
 
-{% highlight java %}
+{% highlight cpp %}
 void reorderList(ListNode *head) {
   if(head == NULL) return;
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    LinkedListCycle"
+title: "LeetCode -- LinkedListCycle"
 description: ""
 category: "leetcode"
 tags: ["recursion",'linked-list']
