@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    Sum Root to Leaf Numbers "
+title: "LeetCode -- Sum Root to Leaf Numbers "
 description: "http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/"
 category: "leetcode"
 tags: []

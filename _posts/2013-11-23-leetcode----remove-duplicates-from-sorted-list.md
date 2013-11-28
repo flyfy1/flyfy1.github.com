@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    Remove Duplicates from Sorted List "
+title: "LeetCode -- Remove Duplicates from Sorted List "
 description: "http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/"
 category: "leetcode"
 tags: []

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    Best Time to Buy and Sell Stock II"
+title: "LeetCode -- Best Time to Buy and Sell Stock II"
 description: "http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
 category: "leetcode"
 tags: ['implementation']

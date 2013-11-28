@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    Max Depth of Binary Tree"
+title: "LeetCode -- Max Depth of Binary Tree"
 description: "http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/"
 category: "leetcode"
 tags: ['easy']

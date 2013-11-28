@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    Reorder List"
+title: "LeetCode -- Reorder List"
 description: "http://oj.leetcode.com/problems/reorder-list/"
 category: "leetcode"
 tags: ['linked-list']

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    ReverseInt"
+title: "LeetCode -- Reverse Int"
 description: "http://oj.leetcode.com/problems/reverse-integer/#"
 category: "leetcode"
 tags: ["simple"]

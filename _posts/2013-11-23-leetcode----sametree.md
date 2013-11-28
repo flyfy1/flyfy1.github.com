@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode    SameTree"
+title: "LeetCode -- Same Tree"
 description: "http://oj.leetcode.com/problems/same-tree/"
 category: "leetcode"
 tags: ['easy']

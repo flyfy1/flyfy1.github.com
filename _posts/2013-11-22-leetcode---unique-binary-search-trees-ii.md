@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LeetCode   Unique Binary Search Trees II"
+title: "LeetCode -- Unique Binary Search Trees II"
 description: "http://oj.leetcode.com/problems/unique-binary-search-trees-ii/"
 category: "leetcode"
 tags: ['recursion']
