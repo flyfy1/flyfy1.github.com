@@ -1,7 +1,11 @@
---- layout: post title: "MeaningFul and MeaningLess" description:
-"MeaningFul things might not be the one you want to do as much as the
-MeaningLess ones" category: "thoughts" tags: ['thoughts','meaning'] --- {%
-include JB/setup %}
+---
+layout: post
+title: "MeaningFul and MeaningLess"
+description: "MeaningFul things might not be the one you want to do as much as the MeaningLess ones"
+category: "thoughts"
+tags: ['thoughts','meaning']
+---
+{% include JB/setup %}
 
 There is an interesting effect: people tends to do, or even addidicted
 into, the meaningless things, rather than the meaningful ones. For example,
