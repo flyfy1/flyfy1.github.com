@@ -224,7 +224,7 @@ Now, whenever we need the base_table in the view, we can simply do:
     # File: app/views/base_table/_form.html.slim 
     = render 'base_table/form', base_form: @tennis_questionaire.base_table
 
-Done. If one wants to add more common view into the base\_form, one can simply add these codes into `app/views/base_table`.
+and done. If one wants to add more common view into the `base_form`, one can simply add these codes into `app/views/base_table`
 
 I've created a demo-project to further illustrate the idea. Here's the link: <https://github.com/flyfy1/rails-mti-demo>
 
