@@ -6,7 +6,7 @@
       return '<' + tag + '>' + txt + '</' + tag + '>';
     };
     res = "";
-    return $.get("record.txt", function(dta, sts, xhr) {
+    $.get("record.txt", function(dta, sts, xhr) {
       $.each(dta, function(idx, row) {
         var cTxt;
         cTxt = "";
@@ -18,6 +18,10 @@
       $("#code_fill").html(res);
       return console.log(res);
     }, "json");
+    return $.get("total.txt", function(dta, sts, xhr) {
+      console.log(dta);
+      return $("#total").html(dta);
+    });
   })(jQuery);
 
 }).call(this);

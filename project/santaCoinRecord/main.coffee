@@ -13,4 +13,9 @@
     $("#code_fill").html(res)
     console.log(res)
   "json")
+
+  $.get("total.txt",(dta, sts, xhr) ->
+    console.log(dta)
+    $("#total").html(dta)
+  )
 )(jQuery)
