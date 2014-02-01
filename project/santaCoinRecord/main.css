@@ -1,0 +1,12 @@
+table thead tr {
+  background: #FEF; }
+  table thead tr th {
+    padding: 5px; }
+table tbody {
+  text-align: center; }
+  table tbody tr:nth-child(odd) {
+    background: #FFE; }
+  table tbody tr:nth-child(even) {
+    background: #FEE; }
+  table tbody tr td {
+    padding: 10px; }

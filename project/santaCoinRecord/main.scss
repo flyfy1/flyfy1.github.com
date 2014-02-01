@@ -1,0 +1,18 @@
+table{
+  thead tr{
+    background: #FEF;
+
+    th{ padding: 5px; }
+  }
+
+  tbody{
+    text-align: center;
+
+    tr{
+      &:nth-child(odd) {background: #FFE;}
+      &:nth-child(even) {background: #FEE;}
+
+      td{ padding: 10px; }
+    }
+  }
+}
