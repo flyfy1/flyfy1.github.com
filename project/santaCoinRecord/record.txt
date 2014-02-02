@@ -4,4 +4,5 @@
   ["+1","01/02/2014","Getting up early, in both the first and second day of the lunar year (though first day is unchecked)"],
   ["-1","01/02/2014","No photo~~不乖~"],
   ["+1","02/02/2014","Managed to break the GFW, in China"]
+  ["+1","02/02/2014","I am able to modify it!"]
 ]
