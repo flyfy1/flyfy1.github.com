@@ -71,3 +71,5 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
       }
     }
 
+
+8. If one want the traditional LAMP, follow [instruction here](https://help.ubuntu.com/community/ApacheMySQLPHP).
