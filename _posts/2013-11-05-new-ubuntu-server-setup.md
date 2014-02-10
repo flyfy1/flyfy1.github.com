@@ -27,17 +27,17 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
 4. Some Personal Preferences:
   - set vi mode: in file  ~/.inputrc or /etc/inputrc, set: 
 
-    set editing-mode vi
-    set keymap vi-command
+        set editing-mode vi
+        set keymap vi-command
     
   - setup vim: </superuser/2013/09/20/vim-notes-and-plugin/>
   
   - setup git:
     
-    git config --global user.name "User Name"
-    git config --global user.email "Email Address"
-    git config --global core.editor vim
-    git config --global merge.tool vimdiff
+        git config --global user.name "User Name"
+        git config --global user.email "Email Address"
+        git config --global core.editor vim
+        git config --global merge.tool vimdiff
 
   - setup locate database:  `updatedb`
 
