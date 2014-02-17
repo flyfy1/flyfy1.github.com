@@ -41,7 +41,7 @@ I therefore again have to face the common problem of... setting up the Ubuntu se
 
   - setup locate database:  `updatedb`
 
-5. Install RVM, Ruby, and Rails, following post: <https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm>
+5. Install RVM, Ruby, and Rails, following post: <https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-ubuntu-12-04-lts-precise-pangolin-with-rvm>.  Note that if to use from Ubuntu's terminal, you'll need to set in `Edit -> Profile Preference -> Title and Command -> Run command as Login Shell`. Otherwise, typing `ruby` from shell would give you command-not-found.
 
 6. Install NodeJS: <http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10>
 
