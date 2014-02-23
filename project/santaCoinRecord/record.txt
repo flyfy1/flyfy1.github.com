@@ -6,5 +6,6 @@
   ["+1","02/02/2014","Managed to break the GFW, in China"],
   ["+1","02/02/2014","I am able to modify it!"],
   ["-1","02/02/2014","Oops.. Issued a pull request without testing it."],
-  ["+1","16/02/2014","Managed to get up early on Sunday. Exceptional."]
+  ["+1","16/02/2014","Managed to get up early on Sunday. Exceptional."],
+  ["+1","23/02/2014","Pickued up the old habit of drawing, starting with someone handsome :)"]
 ]
