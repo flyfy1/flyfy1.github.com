@@ -11,7 +11,7 @@ tags: [language,javascript]
 
 I wrote some code to learn&verify JS's behaviour while solving the problems. I'll try to put the result below.
 
-Meanwhile, I've also put the JS source code [here](/project/LanguageLearn/js-puzzler.js).
+Meanwhile, I've also put the JS source code [here](/project/languageLearn/js-puzzler.js).
 
 {% highlight javascript %}
 
