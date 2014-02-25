@@ -1,16 +1,7 @@
-                                                                                
-                                                                                
-   ____                                                                         
-  6MMMMb/                                                                       
- 8P    YM                                              /                        
-6M      Y ___   ___ ___  __ ___  __   ____  ___  __   /M                _______ 
-MM        `MM    MM `MM 6MM `MM 6MM  6MMMMb `MM 6MMb /MMMMM  68b       ,MMMMMMM 
-MM         MM    MM  MM69 "  MM69 " 6M'  `Mb MMM9 `Mb MM     Y89       dM       
-MM         MM    MM  MM'     MM'    MM    MM MM'   MM MM               MP       
-MM         MM    MM  MM      MM     MMMMMMMM MM    MM MM               M'       
-YM      6  MM    MM  MM      MM     MM       MM    MM MM               MMMMMMb  
- 8b    d9  YM.   MM  MM      MM     YM    d9 MM    MM YM.  , 68b            `Mb 
-  YMMMM9    YMMM9MM__MM_    _MM_     YMMMM9 _MM_  _MM_ YMMM9 Y89             MM 
-                                                                             MM 
-                                                                       MM.  ,M9 
-                                                                        YMMMM9  
+                                                                     
+ ,-----.                                       ,--.            ,---. 
+'  .--./,--.,--.,--.--.,--.--. ,---. ,--,--, ,-'  '-..--.     /    | 
+|  |    |  ||  ||  .--'|  .--'| .-. :|      \'-.  .-''--'    /  '  | 
+'  '--'\'  ''  '|  |   |  |   \   --.|  ||  |  |  |  .--.    '--|  | 
+ `-----' `----' `--'   `--'    `----'`--''--'  `--'  '--'       `--' 
+                                                                     
