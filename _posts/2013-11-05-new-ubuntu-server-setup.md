@@ -65,7 +65,7 @@ Before everything, if you found that your keys like 'esc', 'tab', etc, are not f
       root          /var/www;
 
       location ~ \.php$ {
-        fastcgi_pass  localhost:9000;
+        fastcgi_pass  unix:/var/run/php5-fpm.sock;
         fastcgi_param SCRIPT_FILENAME
                       $document_root$fastcgi_script_name;
         include       fastcgi_params;
@@ -73,4 +73,4 @@ Before everything, if you found that your keys like 'esc', 'tab', etc, are not f
     }
 
 
-8. If one want the traditional LAMP, follow [instruction here](https://help.ubuntu.com/community/ApacheMySQLPHP).
+8. If one want the traditional LAMP, follow [instruction here](https://help.ubuntu.com/community/ApacheMySQLPHP); otherwise, if one only wants to install MySQL, do: `sudo apt-get install mysql-server`
