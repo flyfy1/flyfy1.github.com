@@ -11,6 +11,7 @@ I have just applied an EC2, which would be free for 1 whole year from now one (I
 
 I therefore again have to face the common problem of... setting up the Ubuntu server.
 
+Before everything, if you found that your keys like 'esc', 'tab', etc, are not functioning correctly, it might be the problem that the bash is wrong. Check your `/etc/passwd` file to see if the login file under your username is correctly set to be `/bin/bash`.
 
 1. First thing first, create a password:
 
