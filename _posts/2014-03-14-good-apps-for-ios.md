@@ -31,6 +31,8 @@ tags: [iOS,android,App]
 ### 阅读类
 一些成熟平台也做了不错的通用的阅读软件。我安装的：豆瓣阅读，多看阅读，知乎日报。在iOS上还在用iBooks和GoodReader；在Android上因为是手机关系，没有尝试PDF阅读软件。
 
+蛮推荐多看阅读的。在iPhone上可以保存屏幕的Scale信息，可以在很长的iPhone上面横屏看PDF了。
+
 ## 仅在Android
 ### GReader
 神器。当年花了5美元，买了Pro版本。自动更新内容，自动下载图片，提供桌面Widget可以显示新文章。在iOS上还没找到对应的如此优秀体验的软件，尤其是完善的自动下载新文章的功能。让我一度希望换回去Android平台。
