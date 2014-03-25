@@ -25,6 +25,7 @@ List of Plugins for VIM:
 - [vim-surround](https://github.com/tpope/vim-surround): to modify the text surroundings easily. 
 - [scroll-colors](https://github.com/vim-scripts/ScrollColors): to scroll through the list of installed colors easily
 - [Vim-Slim](https://github.com/slim-template/vim-slim): slim syntax highlight
+- [Vim-Coffee](https://github.com/kchmck/vim-coffee-script.git): coffee script highlight
 
 Make it easier, the shell script:
     
@@ -41,6 +42,7 @@ Make it easier, the shell script:
     git clone https://github.com/tpope/vim-surround.git
     git clone https://github.com/vim-scripts/ScrollColors.git
     git clone git@github.com:slim-template/vim-slim.git
+    git clone https://github.com/kchmck/vim-coffee-script.git
 
 Add add these into the `.vimrc` file (These are my preferred settings):
 

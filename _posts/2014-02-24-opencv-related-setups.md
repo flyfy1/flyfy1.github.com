@@ -27,3 +27,7 @@ while True:
     cv2.waitKey(20)
 
 {% endhighlight %}
+
+## Compilation
+
+On Ubuntu, to compile with python support: <https://help.ubuntu.com/community/OpenCV>
