@@ -31,3 +31,8 @@ while True:
 ## Compilation
 
 On Ubuntu, to compile with python support: <https://help.ubuntu.com/community/OpenCV>
+
+The source can be gained from <https://github.com/Itseez/opencv/>, and there are
+currently 2 branchs: the 3.0-dev version (master branch), and the 2.4 version.
+
+Build the one you need, by checkout the corresponding branch
