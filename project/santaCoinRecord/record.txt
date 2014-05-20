@@ -10,5 +10,6 @@
   ["+1","23/02/2014","Pickued up the old habit of drawing, starting with someone handsome :)"],
   ["-0.5","24/02/2014","Direct GeGe to the fruad site..."],
   ["-0.5","25/02/2014","Hi? Sigh. Let the pigeon fly"],
-  ["+1","05/03/2014","Managed to do exercise.. a lot."]
+  ["+1","05/03/2014","Managed to do exercise.. a lot."],
+  ["+1","19/04/2014","Declared to be performing well... constantly."]
 ]
