@@ -7,9 +7,8 @@ tagline: Info About the Author
 
 ## Song Yangyu
 
-* National University of Singapore
-* Computer Engineering, Year 4
-* Expected Graduation: May, 2014
+* National University of Singapore, Graduates
+* Works in Paypal, currently
 * [Resume](https://github.com/flyfy1/resume/blob/master/resume.pdf?raw=true)
 
 ### Contact:
