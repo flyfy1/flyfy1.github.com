@@ -5,17 +5,14 @@ description: ""
 ---
 {% include JB/setup %}
 
-# Intro
-
-List down the interesting (open) projects I've done before.
-
 ## dotFiles
 
 On Github: <https://github.com/flyfy1/dotFiles>
 
-### Motivation
+##### Motivation
 There're lots of [dot files](https://github.com/search?q=dotfiles) on the
 internet. What's so special about this? It does the following extra things:
+
 - auto download the list of vim plugins
 - auto creating the symbolic link back to the home folder
 - in the case that you've added a new dot files, you can easy move the files
@@ -27,7 +24,7 @@ internet. What's so special about this? It does the following extra things:
 
 On Github: <https://github.com/flyfy1/BeautifulCommandHandler>
 
-### Motivation
+##### Motivation
 
 It's a pattern, to show case the parsing of command line.
 
@@ -38,18 +35,16 @@ It's beautiful.
 
 On Github: <https://github.com/flyfy1/uvaProblems>
 
-### Motivation
+##### Motivation
 
 Nothing, but just a record of my solved UVA Problems.
 
-
-# Projects
 
 ## Keyboard-Mouse
 
 On Github: <https://github.com/flyfy1/keyboard-mouse>
 
-### Motivation
+##### Motivation
 Moving hand away from the key-board, just to perform a mouse click, is
 time-consuming.
 
@@ -63,8 +58,9 @@ This is done for that purpose.
 
 On Github: <https://github.com/flyfy1/JavaRobot4Console>
 
-### Motivation
+##### Motivation
 Yet another use of Robot. This would listen to the network message. Based on
 different message format, it can do:
+
 - Move & click mouse
 - Take screenshot
