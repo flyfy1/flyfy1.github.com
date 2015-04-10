@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Color of fullscreen</title>
+</head>
+
+<body>
+  <div>
+    <span>Color: #</span>
+    <input type="textbox" placeholder="FFFFFF" id='color-val'></input>
+    <button id='show-color'>Show</button>
+  </div>
+  <div>
+    <p> <font color='red' id='error-area'></font> </p>
+  </div>
+
+  <script>
+    console.log("Show color via full screen");
+    showButton = document.getElementById('show-color');
+    var colorBox = document.getElementById('color-val');
+    var errorArea = document.getElementById('error-area');
+    var body = document.getElementsByTagName('body')[0];
+
+    var colorRegex = /^[0-9a-fA-F]{0,6}$/;
+
+    function getProperColorValue(inputVal){
+      if(!colorRegex.test(inputVal)){
+        return 'error';
+      }
+
+      switch(inputVal.length){
+        case 0: return 'FFFFFF';
+        case 1: return (new Array(7)).join(inputVal);
+        case 2: return (new Array(4)).join(inputVal);
+        case 3: return (new Array(3)).join(inputVal);
+        case 4: return inputVal + "FF";
+        case 5: return inputVal + "F";
+        case 6: return inputVal;
+        default: return 'error';
+      }
+    }
+
+    var colorVal = 'FFFFFF';
+    colorBox.addEventListener('keyup', function(evt){
+      colorVal = getProperColorValue(colorBox.value);
+
+      if(colorVal === 'error'){
+        errorArea.innerText = 'Please key in a Hex value between (0, FFFFFF)';
+      } else{
+        showButton.style.backgroundColor = colorVal;
+        errorArea.innerText = '';
+      }
+    });
+    
+    showButton.onclick = function(evt){
+      body.innerHTML = "";
+      body.style.backgroundColor = colorVal;
+    };
+
+  </script>
+</body>
+</html>
