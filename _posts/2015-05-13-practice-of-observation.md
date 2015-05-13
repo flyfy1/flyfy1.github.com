@@ -34,7 +34,7 @@ Here is how to do it:
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
 drink yesterday.
 
-![Image of An Alcohol](https://dl.dropboxusercontent.com/u/9778027/images/2015-05-11%2023.50.36.jpg)
+![Image of An Alcohol](https://dl.dropboxusercontent.com/u/9778027/images/poo-alocohol.jpg)
 
 The analysis starts now:
 
@@ -64,3 +64,8 @@ the blank point, mutually.
 
 
 Here the game starts :)
+
+
+Homework for tomorrow:
+
+![Image of A lift](https://dl.dropboxusercontent.com/u/9778027/images/poo-lift.jpg)
