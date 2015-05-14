@@ -31,6 +31,8 @@ Here is how to do it:
   3. If possible, how to improve the design / machsim
 
 
+
+## Wed May 15 2015
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
 drink yesterday.
 
@@ -66,6 +68,38 @@ the blank point, mutually.
 Here the game starts :)
 
 
-Homework for tomorrow:
+## Thu May 15 2015
 
+Image of today: 
 ![Image of A lift](https://dl.dropboxusercontent.com/u/9778027/images/poo-lift.jpg)
+
+The analysis starts now:
+
+1. Seems there're two levels: Street & Ticket Concourse. Therefore, high chance
+   it is taken within an MRT of Singapore.
+2. The text on the buttons is quite blurred -- indicates two possibilities: a)
+   there're lots of people using the lift daily; b) the lift is pretty old.
+   Considering the fact that the image on the yellow button is quite clear, I
+   belive there're more people, than the lift being old.  
+3. The button for "Street" is highlighted. That means the lift is going up to
+   the street level; while the door haven't been opened yet.
+4. Looking at the two buttons at the bottom -- the one on the right (close door)
+   is way more blurred then the one on the left (open door). This indicates that
+   there're way more times people press the 'close door' button, than clicking
+   upon the 'open door' button. Which further indicates that, people using this
+   lift are more 'rush' -- they tends to go ASAP, rather than waiting for
+   someone else. (while actually, the truth is that... for that lift, you have
+   to press the 'close door' button so that the door would be actually closed)
+
+BTW, interestingly, I've got a reply. For the confidentiality, let me don't post
+it yet.
+
+I think this is really an interesting game. Let's welcome more people to join.
+More interestingly, you may send to me annoymously. I'm also planning to host a
+website for this activitiy in the near future :)
+
+Keep doing, don't settle :)
+
+
+Homework for tomorrow: this is a photo taken downstair of the block I'm staying.
+![Image of A downstairs](https://dl.dropboxusercontent.com/u/9778027/images/poo-downstairs.jpg)
