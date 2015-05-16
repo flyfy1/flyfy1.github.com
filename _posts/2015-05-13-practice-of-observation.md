@@ -32,7 +32,7 @@ Here is how to do it:
 
 
 
-## 14 May 2015
+## 13 May 2015
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
 drink yesterday.
 
@@ -68,7 +68,7 @@ the blank point, mutually.
 Here the game starts :)
 
 
-## 15 May 2015
+## 14 May 2015
 
 Image of today: 
 ![Image of A lift](https://dl.dropboxusercontent.com/u/9778027/images/poo-lift.jpg)
@@ -100,7 +100,7 @@ website for this activitiy in the near future :)
 
 Keep doing, don't settle :)
 
-## 16 May 2015
+## 15 May 2015
 this is a photo taken downstair of the block I'm staying.
 ![Image of A downstairs](https://dl.dropboxusercontent.com/u/9778027/images/poo-downstairs.jpg)
 
@@ -118,6 +118,23 @@ The analysis starts now:
 4. There's a red `R2` sign on the big pipe on the right. I don't know what it
    means; but I think it might be wa
 
-## Homework for tomorrow
+## 16 May 2015
 this is a well cover I passed by on the road.
 ![Well Cover](https://dl.dropboxusercontent.com/u/9778027/poo/20150517_well_cover.jpg)
+
+The analysis starts now:
+
+1. There're pretty little grass near the road. Indicates that the road is pretty
+   friquently used, but not a lot (cuz the little-grass area is very small)
+2. The road isn't very dirty, but it has a bit small died grass & sticks. This
+   also means that the road isn't cleaned very often -- which means that, there
+   are probably not a lot of people using the road (TODO: may need some careful
+   comparasion with other road in Singapore)
+3. The cover is going down a little bit in the middle -- indicates that it has
+   been steped by some heavy vehicles
+4. The ground looks a little bit wet, as well as the grass. There might be
+   recent rain 1 or 2 days ago.
+
+## Homework for tomorrow
+this is a light button I toke on my way back home.
+![Light Button](https://dl.dropboxusercontent.com/u/9778027/poo/20150518_light_button.jpg)
