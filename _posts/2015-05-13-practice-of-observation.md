@@ -32,7 +32,7 @@ Here is how to do it:
 
 
 
-## Wed May 15 2015
+## 14 May 2015
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
 drink yesterday.
 
@@ -68,7 +68,7 @@ the blank point, mutually.
 Here the game starts :)
 
 
-## Thu May 15 2015
+## 15 May 2015
 
 Image of today: 
 ![Image of A lift](https://dl.dropboxusercontent.com/u/9778027/images/poo-lift.jpg)
@@ -100,6 +100,24 @@ website for this activitiy in the near future :)
 
 Keep doing, don't settle :)
 
-
-Homework for tomorrow: this is a photo taken downstair of the block I'm staying.
+## 16 May 2015
+this is a photo taken downstair of the block I'm staying.
 ![Image of A downstairs](https://dl.dropboxusercontent.com/u/9778027/images/poo-downstairs.jpg)
+
+The analysis starts now:
+
+1. The photo seems to be taken at night. Cuz the light on the left side hve a
+   little bit of cyan colar -- which is the color of a light source; also if one
+   zoom the image, there're quite some noise -- which means lacking of light
+   source.
+2. the wall is turning a little bit dirty, as well as the ground. Indicating the
+   block is a little bit old, at least not recently renovated.
+3. If one zoom the image, then one can see that on top of the doors, it has a
+   sign `Electrical & Tel  xxxxx`, and `Gas & Water` -- which indicates that it
+   is a control room.
+4. There's a red `R2` sign on the big pipe on the right. I don't know what it
+   means; but I think it might be wa
+
+## Homework for tomorrow
+this is a well cover I passed by on the road.
+![Well Cover](https://dl.dropboxusercontent.com/u/9778027/poo/20150517_well_cover.jpg)
