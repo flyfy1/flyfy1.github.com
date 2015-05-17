@@ -31,6 +31,24 @@ Here is how to do it:
   3. If possible, how to improve the design / machsim
 
 
+Hmm let's start small. If anyone who is interested with this exercise, we can do
+this together. There're two things you can do:
+
+1. I'll take a photo one day before the analysis, and publish it. If you're
+   interested, you may mail it to: `geekysong at gmail dot com` with your
+   analysis. I promise I'll only check my mail box after I finsh my version of
+   analysis.
+2. You can take a photo, and send me the analysis. I may consider using your
+   version of photo in future.
+
+What's good for you to pick the 1/2 options from the list above? Well.. opinions
+from one person might be biased. With some peer-review, one can hopefully find
+the blank point, mutually.
+
+
+Here the game starts :)
+
+
 
 ## 13 May 2015
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
@@ -48,24 +66,6 @@ The analysis starts now:
    sugur", which indicates that the alocohol has certain flavour; usually this
    kind of alocohol have a pretty low percentage of `CH3CH2OH` -- it is meant
    more for drink, rather than drunk. 
-
-
-Hmm let's start small. If anyone who is interested with this exercise, we can do
-this together. There're two things you can do:
-
-1. I'll take a photo one day before the analysis, and publish it. If you're
-   interested, you may mail it to: `geekysong at gmail dot com` with your
-   analysis. I promise I'll only check my mail box after I finsh my version of
-   analysis.
-2. You can take a photo, and send me the analysis. I may consider using your
-   version of photo in future.
-
-What's good for you to pick the 1/2 options from the list above? Well.. opinions
-from one person might be biased. With some peer-review, one can hopefully find
-the blank point, mutually.
-
-
-Here the game starts :)
 
 
 ## 14 May 2015
@@ -135,6 +135,30 @@ The analysis starts now:
 4. The ground looks a little bit wet, as well as the grass. There might be
    recent rain 1 or 2 days ago.
 
-## Homework for tomorrow
+## 17 May 2015
 this is a light button I toke on my way back home.
 ![Light Button](https://dl.dropboxusercontent.com/u/9778027/poo/20150518_light_button.jpg)
+
+The analysis starts now:
+
+1. The pink light is on, cuz I wanna cross the road, pressed the button and
+   waiting.
+2. The arror has a print version, and a curved version (smaller). There might be
+   two reasons: 
+   1. the small curved arrow is designed for the blind people to use.
+   2. the curved arrow was the first design; then people think it is not
+      obverious enough -- therefore they've further used a print arrow to show
+      the direction.
+3. There're no car on the road, and the road has only 2 lanes -- means this road
+   is usually not very busy.
+4. 'Tape for longer Crossing Time' -- I've never seen anyone using this card
+   before, even for the old people.
+5. On the right side, there're huge night. Usually it's sign for court yard.
+
+
+## Homework for tomorrow
+Let's pause analysizing picture for a moment. Let's think about.. how to make
+use of a used bottle.
+
+![Bottle of Fish Oil](https://dl.dropboxusercontent.com/u/9778027/poo/20150519_reuse_bottleOfFishOil.jpg)
+
