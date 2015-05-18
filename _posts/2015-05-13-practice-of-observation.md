@@ -156,9 +156,34 @@ The analysis starts now:
 5. On the right side, there're huge night. Usually it's sign for court yard.
 
 
-## Homework for tomorrow
+## 18 May 2015
 Let's pause analysizing picture for a moment. Let's think about.. how to make
 use of a used bottle.
 
 ![Bottle of Fish Oil](https://dl.dropboxusercontent.com/u/9778027/poo/20150519_reuse_bottleOfFishOil.jpg)
+
+Thinking about the properties of the bottle:
+
+1. Not Very Small
+2. Plastic;
+3. Used for holding Fish Oil (considered as medicine) before
+
+So.. there're several possible usages:
+
+1. Water Bottle. The fact that it's used for holding fish oil, would indicate
+   that it is pretty water proof (to be tested). Therefore it might be good for
+   holding water.
+2. Cup for brushing teath. This is just extending the concept of 'container'
+3. FlowerPot. It is plastic, so it is pretty easy to cut. Therefore, one can cut
+   the top, put in soil, and try to plant flower
+4. Container for making RiceWine. I used to make rice wine, and it is pretty
+   easy to make: 1) cook the rice, put it into some container. 2) put in the
+   yeast. 3) Close the cover (trying to isolate the Oxygen), wait for several
+   days.
+
+## Homework for tomorrow
+this is a shoe from a girl. She wore it today and her foot got worn out. She
+bought this shoe in a small store in VivoCity, around $10 per pair.
+
+![New Shoe](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_newShoe.jpeg)
 
