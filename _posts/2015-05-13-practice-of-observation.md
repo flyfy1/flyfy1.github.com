@@ -181,9 +181,21 @@ So.. there're several possible usages:
    yeast. 3) Close the cover (trying to isolate the Oxygen), wait for several
    days.
 
-## Homework for tomorrow
+## 19 May 2015
 this is a shoe from a girl. She wore it today and her foot got worn out. She
 bought this shoe in a small store in VivoCity, around $10 per pair.
 
 ![New Shoe](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_newShoe.jpeg)
 
+1. It looks quite new; near the top of the shoe, there're some small fur.
+   Indicates that it is.. not a very expensive one. (which is already stated)
+2. Inside the shoe, the text is very clear, and the color is the same -- also
+   indicates that it is new one.
+3. The shoe is quite thin. Indicates that it's for summer use.
+4. Nothing more I can tell... cannot judge the confortability
+
+## Homework for tomorrow
+Let's think about something interesting -- how to help increase the sales of
+this shop.
+
+![Shop need Sales](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_shop.jpg)
