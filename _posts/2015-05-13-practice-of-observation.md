@@ -199,3 +199,13 @@ Let's think about something interesting -- how to help increase the sales of
 this shop.
 
 ![Shop need Sales](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_shop.jpg)
+
+## Homework for day after tomorrow
+
+`External Contributed`, quote from the original poster:
+
+This is a notice board for a vehicle access control system of a small one-way
+road. The width of the road is around 2.5m. The road is in campus. On the one
+side of the road is a lake, the other side is near to halls for students.
+
+![notice board](https://dl.dropboxusercontent.com/u/9778027/poo/20150521_barrier.jpeg)
