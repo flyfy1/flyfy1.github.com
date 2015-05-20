@@ -194,18 +194,51 @@ bought this shoe in a small store in VivoCity, around $10 per pair.
 3. The shoe is quite thin. Indicates that it's for summer use.
 4. Nothing more I can tell... cannot judge the confortability
 
-## Homework for tomorrow
+## 20 May 2015
 Let's think about something interesting -- how to help increase the sales of
 this shop.
 
 ![Shop need Sales](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_shop.jpg)
 
-## Homework for day after tomorrow
 
-`External Contributed`, quote from the original poster:
+So the interesting questions comes is... how to increase the sales. That's
+pretty interesting, and practical.
 
-This is a notice board for a vehicle access control system of a small one-way
-road. The width of the road is around 2.5m. The road is in campus. On the one
-side of the road is a lake, the other side is near to halls for students.
+What the shop owner has done currently:
 
-![notice board](https://dl.dropboxusercontent.com/u/9778027/poo/20150521_barrier.jpeg)
+- selling of fresh juice, suger cane esp.
+- selling of canned juice.
+- selling of cigarette
+- Alocohol & breakfasts (seeing from the banner on the top)
+
+It has a variaty of items; but interestly, there isn't many people coming to
+buy. Why? I think it's cuz of two reasons:
+
+1. no differentiation of items -- basically, there's no unique product. There's
+   a fair-price several steps away, and what one can buy here (except the suger
+   cane juice) can be also bought in the fair price, with a much cheaper price.
+   In fact, the suger cane juice is the mostly well-sold ones
+2. the shop is a bit dirty -- although people knows, for sure that, the can
+   juice got no difference with how the shop looks; still, if there's a cleaner
+   shop with the same product @ same price, then buyers would just go for the 
+   cleaner one
+
+Therefore, I'm thinking to propose these set of improvements to be made:
+
+1. Consider selling juice of fresh fruits, so that one can differciate from
+   other shops selling CAN juice
+2. Consider imposing some kind of "membership" program, like 'buy 5 get 1 free'
+3. Make the shop cleaner, at least from how it looks
+4. Offering something free -- so that one can make the shop itself different
+   from others. For example, giving a free slice of orange / mango.
+5. Using better looking cups when selling alocohol 
+
+
+## End of This Week
+
+Time flies, and it is 7 days since I first started this game.  It is the end of
+the post for this week already, and I'm considering to end this post, and start
+a new one for the next 7 days. (basically, each 7 days would be a new post)
+
+Here's the link to the
+[next post](/observation/2015/05/21/practice-of-observation-week-2/)
