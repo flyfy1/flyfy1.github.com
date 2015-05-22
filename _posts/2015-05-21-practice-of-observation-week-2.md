@@ -9,7 +9,7 @@ tags: []
 
 About the rule of this game, refer to the [first post](/observation/2015/05/13/practice-of-observation/)
 
-## Homework for tomorrow
+## 21 May 2015
 
 `External Contributed`, quote from the original poster:
 
@@ -34,9 +34,46 @@ The analysis starts
 
 ![notice board](https://dl.dropboxusercontent.com/u/9778027/poo/20150521_barrier.jpeg)
 
-## Homework for day after tomorrow
+## 22 May 2015
 
 I feel thinking about how to improve a certain item is even more interesting
 than simply make observation.
 
 Today's topic: what can one do in MRT~?
+
+The analysis starts:
+
+1. The one I always enjoy doing -- reading a book. In fact, I've finished 'Pro
+   Git' purely on MRT, and later "Ruby MetaProgrammin", when I was intern in
+   Paypal.
+2. Observation. By observing people around you, one can learn a lot about
+   people's behaviour in MRT: what they do, how they look like, what does it
+   indicates.
+3. Making Friends. Try talking to the one sitting next to you, you may
+   potentially find some new friends. Everyone has some pretty nice story
+   behind, waiting to be discovered & shared.
+4. Coding. If one is taking MRT for like...2h, then it's quite worth it to do
+   some coding on the train. Actually, it's pretty effective (aside from the
+   part that you don't have internet connection)
+5. Sight Seeing. I think one good way to know a city is.. through actually
+   experience it. MRT is a good way to experience a city, cuz it links lots of
+   different places. Just by looking outside, one can gain a rough knowledge
+   about how a perticular area is like.
+
+
+
+## Homework tomorrow
+
+This is a image from a (pretty) annoymous user. The image is pretty
+self-expressive. I got this image at around 18:25.
+
+![on MRT](https://dl.dropboxusercontent.com/u/9778027/poo/20150522_mrt.jpg)
+
+The analysis starts:
+
+1. Considering the time & it's on MRT, this is taken on the way back home.
+2. It's reaching downtown line. Cuz the lady is looking outside.
+3. It's Bugis -> Chinatown direction. Cuz although it looks a bit empty,
+   there're people standing on the train, and there're not many people doing
+   ChinaTown -> Bugis at this point (needs to check this point)
+4. More To be added later :)
