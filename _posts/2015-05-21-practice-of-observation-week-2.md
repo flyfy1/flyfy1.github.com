@@ -62,7 +62,7 @@ The analysis starts:
 
 
 
-## Homework tomorrow
+## 23 May 2015
 
 This is a image from a (pretty) annoymous user. The image is pretty
 self-expressive. I got this image at around 18:25.
@@ -76,4 +76,13 @@ The analysis starts:
 3. It's Bugis -> Chinatown direction. Cuz although it looks a bit empty,
    there're people standing on the train, and there're not many people doing
    ChinaTown -> Bugis at this point (needs to check this point)
-4. More To be added later :)
+4. The girl on the right in the picture seems to be in the middle of using the
+   cellphone, and then something happened, and looking at that.
+5. The girl in the middle was looking outside the window. I feel it's probably
+   because that the train just went out.
+
+## Homework tomorrow
+
+Let's talk about.. how to make money, as a software engineer; and what to do, in
+order to be richer :)
+
