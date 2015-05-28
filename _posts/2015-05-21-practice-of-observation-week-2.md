@@ -81,8 +81,56 @@ The analysis starts:
 5. The girl in the middle was looking outside the window. I feel it's probably
    because that the train just went out.
 
-## Homework tomorrow
+## 28 May 2015
 
 Let's talk about.. how to make money, as a software engineer; and what to do, in
 order to be richer :)
+
+Actually, this question is too big to answer. As a software engineer, different
+levels of software engineer will have different skill sets. This means the way 
+they can use to make money may differs. For a software engineer studying as an 
+undergraduate and a software engineer who has several years working experiences,
+the feasible ways to make money may be different.
+However, there are some general ways:
+
+1. Start a company
+
+   My university profesor once mentioned that "all computer science student should
+start their own compay eventually when they have innovative ideas". Yes, as a 
+software engineer, start a company seems to be easier as our IT skills can power 
+up our startup company. Therefore, when you have some great ideas, you can start
+a new company. Maybe it's not fo money, but just for fun, and a bit sense of self-
+achievement.
+
+2. Keep learning and practicing, power up yourself, then money will look for you
+
+   Skill is the key to success for software engineer. Generally, companies pay more
+for senior software developer than fresh graduates because senior software developer
+are more professoinal in terms of software development.
+
+   How do we build up our skills and profiles? Well, the best way is to learn from 
+others. Finding a mentor is not a bad choice, especially those people who can give
+you guidance on software development process. Also, consider developing a rare but
+valuable skills, or master one particular programming languages will be beneficial
+as well. Lasty, know how to advertise yourself.
+
+3. doing self-sourcing projects
+
+   If you want to practice your programming skills and learn new things, while in
+the meanwhile, you still want to earn some moeny, the best way is to do some self-
+sourcing projects. While doing projects, you get to learn new things and practice 
+a lot.
+
+## Homework of tomorrow
+
+   Let's do something interesting this time:
+
+   please take look at this two dollar note, or take out a two dollar note if you
+happen to have one. Look at it carefully for 5 minutes, then close this image, or
+put aside your two dollar note (please be honest^_^). 
+
+![two dollar note](https://dl.dropboxusercontent.com/u/108594727/two%20dollar%20note.jpg)
+
+   Please answer this question: How many 2s (numerical digit 2) are there in the front 
+side of this two dollar note? 
 
