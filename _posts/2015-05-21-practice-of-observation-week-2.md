@@ -121,16 +121,54 @@ the meanwhile, you still want to earn some moeny, the best way is to do some sel
 sourcing projects. While doing projects, you get to learn new things and practice 
 a lot.
 
+### Another note from participants
+Let's talk about.. how to make money, as a software engineer; and what to do, in
+order to be richer :)
+
+Sorry for not updating in time these days. It's 27th already; while I believe it
+is still very necessary to write whatever I missed previously, cuz there's a
+belief that.. it is a lot easier to keep a habit all the time, rather than
+missed some days -- if one starts to stop at some point, then the habit tends to
+fail.
+
+OK.. topic: as a software engineer, what to do, in order to be richer?
+
+Let me probably go through a bit of guidelines here. All code are born equal,
+they're just 0s and 1s of machine code after compilation. However, some are more
+euqal than the others -- some code is small, but takes longer to come up with --
+it's hard by design, or by algorithm.
+
+However, does it means that a harder piece of code can earns you more money? Not
+necessarily. Code only generate value when there're practical use. 
+
+Therefore, when talking about making big money, not for the joy of coding, then
+here's what one may consider:
+
+- FreeLancing. This is one easy way way to make sure that you code would have
+  some practical use; at least, it would be used by your dear client. 
+- Thinking about the common needs. People needs to communicate, then you have
+  Facebook / QQ / Wechat / WhatsApp etc; people need a place to day, then you
+  have propertyGuru; people needs shopping, then you have TaoBao (although, 
+  these tools have one thing in common -- their soly goal is to exchange info)
+- Software as a Service -- there're quite some company doing that. It seems that
+  the 'dot net' is still quiet hot. In the hot season, these 'SAAS' companies
+  are like the ones selling water.
+
 ## Homework of tomorrow
 
    Let's do something interesting this time:
 
-   please take look at this two dollar note, or take out a two dollar note if you
-happen to have one. Look at it carefully for 5 minutes, then close this image, or
-put aside your two dollar note (please be honest^_^). 
+please take look at this two dollar note, or take out a two dollar note if you
+happen to have one. Look at it carefully for 5 minutes, then close this image,
+or put aside your two dollar note (please be honest^\_^). 
 
 ![two dollar note](https://dl.dropboxusercontent.com/u/108594727/two%20dollar%20note.jpg)
 
-   Please answer this question: How many 2s (numerical digit 2) are there in the front 
-side of this two dollar note? 
+Please answer this question: How many 2s (numerical digit 2) are there in the
+front side of this two dollar note? 
 
+Missing Dates (I was being lazy so the dates below are missing):
+
+- 25 May 2015
+- 26 May 2015
+- 27 May 2015
