@@ -154,7 +154,7 @@ here's what one may consider:
   the 'dot net' is still quiet hot. In the hot season, these 'SAAS' companies
   are like the ones selling water.
 
-## Homework of tomorrow
+## Two dollar note
 
    Let's do something interesting this time:
 
@@ -166,6 +166,21 @@ or put aside your two dollar note (please be honest^\_^).
 
 Please answer this question: How many 2s (numerical digit 2) are there in the
 front side of this two dollar note? 
+
+Actually, the attention of this question is not to test you, but to let you know
+what you think you know well in life actually you do not know. We all spend money
+daily though some of us use credit cards. However, we never pay attention to details
+much. Questions like how many digit 2 in a two notes may be difficult, because no
+one will actually count how many digit 2s are there in the two dollar note. The 
+purpose of this question is to remind us the importance of observation and paying
+attention to details.
+Actually, including the 2s in the water mark, there are roughly 37 digit 2s in the
+front side of the two dollar note.
+
+## Homework for tomorrow
+
+Analyse this image, and propose new solutions. :)
+![spring](https://dl.dropboxusercontent.com/u/108594727/spring.jpg)
 
 Missing Dates (I was being lazy so the dates below are missing):
 
