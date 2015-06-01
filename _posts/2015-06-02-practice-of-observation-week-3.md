@@ -55,3 +55,8 @@ share / teach / discuss about the following meta-abilities:
   main motivation I have, in this "observation game"
 
 That's it for today :)
+
+## Homework for tomorrow
+
+Analyse this image, and propose new solutions. :)
+![spring](https://dl.dropboxusercontent.com/u/108594727/spring.jpg)

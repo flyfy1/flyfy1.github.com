@@ -154,7 +154,7 @@ here's what one may consider:
   the 'dot net' is still quiet hot. In the hot season, these 'SAAS' companies
   are like the ones selling water.
 
-## Two dollar note
+## 30 May, 2015
 
    Let's do something interesting this time:
 
@@ -177,13 +177,10 @@ attention to details.
 Actually, including the 2s in the water mark, there are roughly 37 digit 2s in the
 front side of the two dollar note.
 
-## Homework for tomorrow
-
-Analyse this image, and propose new solutions. :)
-![spring](https://dl.dropboxusercontent.com/u/108594727/spring.jpg)
-
 Missing Dates (I was being lazy so the dates below are missing):
 
 - 25 May 2015
 - 26 May 2015
 - 27 May 2015
+- 29 May 2015
+- 31 May 2015
