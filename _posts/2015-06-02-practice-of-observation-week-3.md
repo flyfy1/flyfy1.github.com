@@ -56,7 +56,22 @@ share / teach / discuss about the following meta-abilities:
 
 That's it for today :)
 
-## Homework for tomorrow
+## 2nd June, 2015 - Monday
 
 Analyse this image, and propose new solutions. :)
 ![spring](https://dl.dropboxusercontent.com/u/108594727/spring.jpg)
+
+Observation Starts
+
+- It is business area, huge road. Left side is for car, right sdie is for
+  pedestrian
+- The road is one way; can tell directly from the pic.
+- The spring should be able to rotate, cuz there're water split outside, and all
+  places inside the middle area are wet.
+- The road isn't too old (I guess less than 10 yrs), or at least, recently
+  renovated. because the tree is quite young
+
+## Homework for tomorrow
+
+Since I've screwed up my talk today @ ruby meetup so baddly.. let's talk about..
+how not to be neverious when doing public speaking
