@@ -71,7 +71,41 @@ Observation Starts
 - The road isn't too old (I guess less than 10 yrs), or at least, recently
   renovated. because the tree is quite young
 
-## Homework for tomorrow
+## 3rd June, 2015 - Monday
 
 Since I've screwed up my talk today @ ruby meetup so baddly.. let's talk about..
 how not to be neverious when doing public speaking
+
+Part of the cause of fear is the `unknown`. If you know certain thing would
+happen, and you know after it happends, how it would be like, then you'll be 
+less likely to be afraid -- cuz you know the end result already, then there's no
+point being afraid again.
+
+However, this is not true. After one have a bad experienced, then that
+experience would be a `scar` in one's memory -- next time when think about it
+again, there would still be a "thrilling" feeling coming out of the mind. One
+would try to avoid to experience it again, however possible. A good example is
+injection. You know it is good, but still, when thinking about the niddle pierce
+through your flesh, you'll still tremble.
+
+Another way to avoid fear, is to mentally accept it: believes that it is a good
+thing in the end; and the suffer is just temporary. Or better, even if there's
+suffer, one may try to relate it with some good memories & positive feelings;
+therefore transform it into a joy.
+
+In terms of public speaking, here're the ideas I'm holding:
+
+- Best way to learn something, is to teach it. Teaching it publiclly would be
+  best way to make sure that you really understand. Actually, after giving the
+  talk, I feel that whenever I encounter that topic, I feel a sense of 
+  familiarity :)
+- Most effective way of making friends, is still public speaking. Because even
+  if there's so bad about your talk, there'd be still a little bit of good
+  things with you, which you show it out, which would be possibly catched by
+  someone.
+- Bad Publicity is better than No Publicity. One need influence so that one can
+  collect feedback, therefore one can improve the action & idea, and thrive :)
+
+## Homework for tomorrow
+
+How to build a strong body :)
