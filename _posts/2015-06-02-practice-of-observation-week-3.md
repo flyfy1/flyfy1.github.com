@@ -56,7 +56,7 @@ share / teach / discuss about the following meta-abilities:
 
 That's it for today :)
 
-## 2nd June, 2015 - Monday
+## 2nd June, 2015 - Tue
 
 Analyse this image, and propose new solutions. :)
 ![spring](https://dl.dropboxusercontent.com/u/108594727/spring.jpg)
@@ -71,7 +71,7 @@ Observation Starts
 - The road isn't too old (I guess less than 10 yrs), or at least, recently
   renovated. because the tree is quite young
 
-## 3rd June, 2015 - Monday
+## 3rd June, 2015 - Wed
 
 Since I've screwed up my talk today @ ruby meetup so baddly.. let's talk about..
 how not to be neverious when doing public speaking
@@ -106,6 +106,20 @@ In terms of public speaking, here're the ideas I'm holding:
 - Bad Publicity is better than No Publicity. One need influence so that one can
   collect feedback, therefore one can improve the action & idea, and thrive :)
 
-## Homework for tomorrow
-
+## 4th June, 2015 - Thu
 How to build a strong body :)
+
+I went to University Health Center to see doctor today. Did blood test, and it
+turns out to be virus infection. The doctor suggest be to go back & observe.
+
+Here's my inputs about how to build a strong body:
+
+- exercise regularily. Jogging / Push Ups etc.
+- sleep regularily; and sleep enough.
+- meal regularity, and don't miss out breakfast
+- drink enough water
+- regular health check-up
+- meditation -- I believe it would help one observe the body changes
+
+## Homework for tomorrow
+How to improve medical system 
