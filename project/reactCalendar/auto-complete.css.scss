@@ -1,0 +1,36 @@
+.auto-complete-box{
+  .auto-complete-result{
+    &.bordered{
+      border: black solid 1px;
+    }
+
+    position: absolute;
+    background-color: white;
+
+    width: 120px;
+
+    .result-parent{
+      .result-set{
+        .result-set-title{
+          font-weight: bold;
+          margin: 2px 0; 
+          text-align: center;
+          width: 100%;
+        }
+        .result-term{
+          a{
+            color: black;
+            text-decoration: none;
+            width: 100%;
+          }
+        }
+      }
+    }
+    
+    ul.result-parent{
+      list-style: none;
+      padding: 2px;
+      margin: 0;
+    }
+  }
+}
