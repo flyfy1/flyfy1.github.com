@@ -17,8 +17,3 @@ github_username:  flyfy1
 
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-archives
-
-jekyll-archives:
-  enabled: 'all'
