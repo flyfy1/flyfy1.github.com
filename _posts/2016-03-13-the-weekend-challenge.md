@@ -7,7 +7,7 @@ category: "activity"
 So this friday, as I was thinking if I should learn the Go programming language,
 or I should comtinue working on my current project first, my good friend 
 [Bob](http://bobintornado.github.io/) give me a challenge: complete the book
-`<Seven Languages in Seven Weeks>`, over the weekend.
+`<Seven Concurrency Models in Seven Weeks>`, over the weekend.
 
 That was a interesting challenge. With my confidence in my coding skills & 
 reading speed, and without much thinking, I took the challenge. Further more, in
@@ -56,9 +56,9 @@ of this challenge
 
 - Clojure is a nice & beautiful language. So there is one more thing in my
   reading list now: `<Clojure for the Brave and True>`. It's a pretty nice book,
-  and far more easier to read than the `<Seven Language in Seven Weekss>`. I've
-  finished the first three chapaters in order to gain a basic understand with
-  Clojure.
+  and far more easier to read than the `<Seven Concurrency Models in Seven 
+  Weekss>`. I've finished the first three chapaters in order to gain a basic 
+  understand with Clojure.
 - The idea of `reading a book` is really nice. If you want to get started with a
   topic, the fastest way is to pickup an introductory book and start reading
   (and follow examples along the way). If after reading that book you're still
