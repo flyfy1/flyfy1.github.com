@@ -42,7 +42,7 @@ good idea afterall. Several highlights about this challenge:
 However, thoughout this challenge, there're several things I can improve... next
 time:
 
-- throughly access the difficulty of the challenge -- make sure it is hard, but
+- throughly assess the difficulty of the challenge -- make sure it is hard, but
   not impossible. One can do this with a good overall plan of the challenge,
   before making a bet.
 - put in more efforts. Frankly speaking.. I didn't put much efforts into this
