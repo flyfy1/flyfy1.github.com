@@ -7,7 +7,7 @@ category: "activity"
 This is the idae, continued from yesterday's [the weekend
 challenge](/activity/2016/03/13/the-weekend-challenge.html).
 
-# The setup
+## The setup
 
 There're two roles in this challenge: the challenger, and the host.
 
@@ -26,7 +26,7 @@ The bet can be:
 - one 20$ worth of meal treat from the challenger if the challenger loses 
 
 
-# Motiviation - Why it works
+## Motiviation - Why it works
 
 - The two basic motiviation for human being are: the pursue of happiness, or the
   avoidance of pain. Winning a bet is the happiness, while losing it is painful.
@@ -38,7 +38,7 @@ The bet can be:
   less.. comparably.
 
 
-# Other Important Points
+## Other Important Points
 
 - The bet should be small & acceptable to the both , so that.. although obeying
   the rule strictly, there's should be a `game factor` added into this 
@@ -55,7 +55,7 @@ The bet can be:
   the challenger to `game the system`. When that happens, it actually hurts the
   reallationship of the both party, and it makes the game boring.
 
-# Ending
+## Ending
 
 I have more to write here actually.. But it is more interesting to.. let the
 game begin :)
