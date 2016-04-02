@@ -59,3 +59,22 @@ This week is about:
 
 *Question 10*
 ![Question 10](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q10.png)
+
+
+# Week 2
+
+This week is about:
+
+- Revenue and Expenses
+
+*Question 1 - 2*
+![Questino 1, 2](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q1_2.png)
+
+*Question 3 - 4*
+![Questino 3, 4](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q3_4.png)
+
+*Question 5 - 7*
+![Questino 5 - 7](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q5-7.png)
+
+*Question 8 - 10*
+![Questino 8 - 10](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q8_10.png)
