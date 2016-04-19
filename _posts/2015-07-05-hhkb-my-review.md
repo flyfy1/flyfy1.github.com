@@ -18,7 +18,17 @@ not -- the reasons that I bought it, to be honest, are:
 However, after two days of usage, I think I may not like it that much (although,
 I'll be continuing using it). Here's the pros & cons as below:
 
+Update: after nearly 10 months using it, I found myself cannot leave it already.
+
 ## Pros
+1. Good feeling of Key-Stroke. It has a longer key stroke distance.. which make
+   it more confortable to press than the Laptop Keyboard.
+2. Can be placed directly on top of Mac's own keyboard. It share the same size
+   with the Mac Keyboard. Therefore, if I'm using my Mac only, I can simply
+   place the keyboard on top of the keyboard. However, if that, please remember
+   to disable the keyboard below.. otherwise, there would be some issues of
+   mis-typing.
+   
 
 ## Cons
 
@@ -44,7 +54,7 @@ Here''re several pain points I'm having:
    I'll then have to.. first position my little finger, and then find the
    direction keys using.. usually.. my middle finger. It consumes more of my
    attention like that.
-2. Tilta, together with the '`', has been moved to the top right; while the 
+2. Tilta, together with the `` ` ``, has been moved to the top right; while the 
    `ESC` key is holding the original position. This is very inconvenient to me
    because that... I actually type `~` lots of times. In the beautiful old days,
    whenever I need to type the beautiful '~' sign, I only need to shift my
@@ -67,4 +77,4 @@ Here''re several pain points I'm having:
 
 
 
-[layout]: http://xahlee.info/kbd/i/happy_hacking_keyboard_us_layout.jpg
+[layout]: https://dl.dropboxusercontent.com/u/9778027/images/hhkbp2_basic_layout1500.png 
