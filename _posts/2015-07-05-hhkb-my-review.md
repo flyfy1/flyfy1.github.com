@@ -6,7 +6,7 @@ category: "review"
 tags: [keyboard, hardware, review]
 ---
 
-I've bought a keyboard recently, HHKB. Here's one from [amazon]<http://www.amazon.com/Happy-Hacking-Keyboard-Professional2-Black/dp/B000EXZ0VC>
+I've bought a keyboard recently, HHKB. Here's one from [amazon](http://www.amazon.com/Happy-Hacking-Keyboard-Professional2-Black/dp/B000EXZ0VC)
 
 Actually, at the time when I bought it, I'm not exactly sure if I need it or 
 not -- the reasons that I bought it, to be honest, are:
