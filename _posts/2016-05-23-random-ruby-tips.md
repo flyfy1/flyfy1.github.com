@@ -108,14 +108,15 @@ Together with a the title of the talks
             query = "url=http%3A%2F%2Freferralcandy.com&scope=read%26profit"
             Rack::Utils.parse_nested_query(query)
 
-    5. Rescuing From Exception:
+    5. Rescuing From Exception, Explanation: 
+       <http://stackoverflow.com/questions/10048173/why-is-it-bad-style-to-rescue-exception-e-in-ruby>
             
             # bad
             begin
             rescue Exception => e
             end
 
-            # good (but why?)
+            # better
             begin
             rescue => e
             end
