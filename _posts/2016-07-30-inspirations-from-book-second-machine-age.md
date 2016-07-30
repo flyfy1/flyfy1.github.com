@@ -77,5 +77,3 @@ effort, to make the world a better place.
 
 
 That's where, the meaning resides.
-
-that only 
