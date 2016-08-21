@@ -13,9 +13,10 @@ category: "thinking"
 
 I have been reading a lot this year. Not only the Tech Specs (which I always
 do), but also the blog posts (which I often do), as well as the books (which I
-mostly started this year only). To make my statement stronger, here's a list of
-books I've read this Year (I'm recording them down because there's a line
-stating "to read more than 50 books this year" in my new year resolution):
+mostly started this year only). To make my statement stronger, here's [a list of
+books I've read this Year](/books-2016/).
+(I'm recording them down because there's a line stating "to read more than 50 
+books this year" in my new year resolution).
 
 
 It seems to be lots of books.. however, I've forgot the content of most of them.
