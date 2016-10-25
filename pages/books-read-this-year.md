@@ -77,3 +77,13 @@ the blog posts.. but then I feel this information should be separated instead:
   - 解忧杂货铺 (from WeRead. Nice novel. Heart-warming)
   - 竟然想通了 (from WeRead.. Pure `chick-soup`.. ideas are useful but stories
     are useless)
+  - 疯传 (Book I like, summarized the basis about how sth spreaded)
+- Sept
+  - 硅谷钢铁侠 (Inspiring.. wanna be such influencial person)
+  - 我是高频交易工程师 (book from Zhihu; when thinking about career)
+  - 富爸爸 点石成金 ("Rich Dad" series.. I've probably taken too much of them)
+  - 工厂女孩 (true stroy; learn to value what I currently have)
+- Oct
+  - 最好的告别 (for the book club, about death and getting old. Inspiring)
+  - 十亿美元的教训 (for personal interest; need to read again)
+  - Upgrading to Java 8 (small simple quick reference book to pickup Java8)
