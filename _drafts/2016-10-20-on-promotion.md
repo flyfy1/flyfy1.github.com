@@ -22,7 +22,12 @@ category: "solidus"
   - many PromotionCode
   - many order_promotions: to link with the order; and therefore, many orders
     through order_promotions
-On the root level
+
+- Adjustments: used for change the price, it is a `adjustable`, which can be put
+  upon:
+  - Order: for promotion only
+  - Shipment: for promotion & tax
+  - LineItem: for promotion & tax
 
 ## Trigger Point
 
