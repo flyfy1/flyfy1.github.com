@@ -16,7 +16,7 @@ token is checked.
 
 ## Include Token in Page
 
-There're two 
+There're two places to insert token in page: meta tag, and form.
 
 ### Token in Meta Tag
 
@@ -25,7 +25,7 @@ There're two
 - [application.html.erb](app/views/layouts/application.html.erb#L5): the
   `csrf_meta_tags` would load CSRF token into the current web page:
 
-  ![Token in Header](docs/token_in_header_1.png)
+  ![Token in Header](/assets/form-show-csrf-token-screen.png)
   
   
 [csrf_meta_tags](actionview/lib/action_view/helpers/csrf_helper.rb#13) would call 
