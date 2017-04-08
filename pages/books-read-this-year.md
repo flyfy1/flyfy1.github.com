@@ -1,11 +1,40 @@
 ---
 layout: page
-title: 2016年读了的书
+title: 2016-2017年读了的书
 permalink: /books-2016/
 ---
 
-Listing a list of books this year. I was originally including it within one of
-the blog posts.. but then I feel this information should be separated instead:
+Listing a list of books in the past. I was originally including it within one
+of the blog posts.. but then I feel this information should be separated
+instead.
+
+Books that I highly recommend has been put in bold.
+
+## Books - 2017
+
+- Jan
+  - 以色列，一个国家的诞生 (book from WeRead, 关于以色列的诞生，一个一直处于生存
+    威胁中的国家)
+  - 你今天真好看 (book from WeRead)
+  - 大道至简 (book from WeRead, inspiring upon mgmt)
+  - 把时间当朋友 (book from WeRead, re-read, with 7 reading notes published)
+    useful)
+- Feb
+  - *伟大的博弈* (book from WeRead, history of the WallStreet)
+  - *拖延心理学* (book from WeRead, good advices on procastination)
+  - Google工作整理术 (book from WeRead, too old, only tips on google are still
+  - *人工智能时代* (book from WeRead, definitely good thoughts on AI)
+  - 制冷少女 (book from WeRead, lame jokes)
+- March
+  - 绝对小孩 (book from WeRead, 给成人看的童话)
+  - 没人听过兔子说的话 (book from WeRead, 纯粹的童话)
+  - *野兽绅士* (book from WeRead, good advices on dating)
+  - *万历十五年* (book from WeRead, a year of insignificance)
+- April
+  - Web前端黑客技术解密(book from WeRead, basically about CSRF and XSS, a bit on
+    Click Hijacking)
+
+## Books - 2016
 
 - Jan
   - World Order (book from the Book Club)
