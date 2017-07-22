@@ -20,3 +20,5 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
+theme: jekyll-theme-time-machine
