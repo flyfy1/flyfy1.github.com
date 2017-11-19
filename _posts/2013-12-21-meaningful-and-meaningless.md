@@ -3,7 +3,7 @@ layout: post
 title: "MeaningFul and MeaningLess"
 description: "MeaningFul things might not be the one you want to do as much as the MeaningLess ones"
 category: "thoughts"
-tags: ['thoughts','meaning']
+tags: ['thoughts','meaning', front-page]
 ---
 
 There is an interesting effect: people tends to do, or even addidicted

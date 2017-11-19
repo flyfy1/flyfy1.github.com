@@ -3,7 +3,7 @@ layout: post
 title: "HR2002 -- Globalisation presents more career opportunities than threats"
 description: "Preparation for exam essay"
 category: "hr2002"
-tags: ['essay','hr2002','globalization']
+tags: ['essay','hr2002','globalization',front-page]
 ---
 
     "Globalisation presents more career opportunities than threats". Discuss

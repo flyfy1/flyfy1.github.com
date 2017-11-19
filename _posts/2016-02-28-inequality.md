@@ -3,7 +3,7 @@ layout: post
 title: "Inequality"
 description: "About inequality in different areas: job, industry, code, human."
 category: "thoughts"
-tags: ['thoughts']
+tags: ['thoughts','front-page']
 ---
 
 # InEquality

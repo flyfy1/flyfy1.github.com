@@ -3,7 +3,7 @@ layout: post
 title: "On Concentraion and Focus"
 description: ""
 category: daily
-tags: [idea,project,thoughts]
+tags: [idea,project,thoughts,front-page]
 ---
 
 Mr. Luo Yonghao's Smartsian OS was published with Pre-alpha, and the outcome of

@@ -3,7 +3,7 @@ layout: post
 title: "JS Tricks from JS-puzzlers"
 description: "A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"
 category: "language"
-tags: [language,javascript]
+tags: [language,javascript,front-page]
 ---
 
 [Javascript-Puzzlers](http://javascript-puzzlers.herokuapp.com/) is a nice place for people to.. test their JS knowledge :)

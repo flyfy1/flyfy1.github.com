@@ -3,7 +3,7 @@ layout: post
 title: "A Life of Priority Queue"
 description: "Life is like a lot of things, one of them might be.. 'priority queue'. I'll just keep poping, so that I'll always do the most important one."
 category: daily
-tags: [time management,todo]
+tags: [time management,todo,front-page]
 ---
 
 When I was in my year 1 summer doing [CVWO](http://www.comp.nus.edu.sg/~vwo/), [Prof.Ben Leong](http://www.comp.nus.edu.sg/~bleong/) once said that he is living with a Priority Queue, whenever he is free, he just pop out the next element, and work on it.

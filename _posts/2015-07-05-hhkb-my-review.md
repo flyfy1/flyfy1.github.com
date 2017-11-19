@@ -3,7 +3,7 @@ layout: post
 title: "HHKB -- My Review"
 description: ""
 category: "review"
-tags: [keyboard, hardware, review]
+tags: [keyboard, hardware, review, front-page]
 ---
 
 I've bought a keyboard recently, HHKB. Here's one from [amazon](http://www.amazon.com/Happy-Hacking-Keyboard-Professional2-Black/dp/B000EXZ0VC)
@@ -42,7 +42,7 @@ Here is a simple layout of the keyboard:
 
 ![HHKB Layout][layout]
 
-Here''re several pain points I'm having:
+Here're several pain points I'm having:
 
 1. The direction key has disappeared. One would have to press: `[,;,',/` plus
    `fn` if one has to press the direction key. However, direction key is often

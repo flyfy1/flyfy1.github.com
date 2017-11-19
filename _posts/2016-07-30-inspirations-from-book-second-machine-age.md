@@ -2,6 +2,7 @@
 layout: post
 title: 'Inspirations From Book "Second Machine Age"'
 category: "reading"
+tags: "front-page"
 ---
 
 I was reading about the book <Second Machine Age>. It was.. so interesting that

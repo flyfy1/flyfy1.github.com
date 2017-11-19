@@ -2,6 +2,7 @@
 layout: post
 title: "Weekend Challenge - The After Thoughts"
 category: "activity"
+tags: "front-page"
 ---
 
 So this friday, as I was thinking if I should learn the Go programming language,

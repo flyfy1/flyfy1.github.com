@@ -3,7 +3,7 @@ layout: post
 title: "New Ubuntu Server Setup"
 description: "Recording down steps to setup a Ubuntu Server"
 category: "tools"
-tags: [ubuntu,setup]
+tags: [ubuntu,setup,front-page]
 ---
 
 I have just applied an EC2, which would be free for 1 whole year from now one (I will have graduated already after another 6 month)

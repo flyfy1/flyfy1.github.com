@@ -2,6 +2,7 @@
 layout: post
 title: "Random Ruby Tips"
 category: "summary"
+tags: "front-page"
 ---
 
 Here's a summary of the history of Random Ruby Tips for the ruby meetup..

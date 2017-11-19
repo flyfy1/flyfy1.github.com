@@ -2,6 +2,7 @@
 layout: post
 title: "Different Uses of Knowledge"
 category: "thoughts"
+tags: "front-page"
 ---
 
 Several days ago, when I was listening to the [Passive Income](

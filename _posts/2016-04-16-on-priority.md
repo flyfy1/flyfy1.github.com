@@ -2,6 +2,7 @@
 layout: post
 title: "On Priority, and Seeding"
 category: "thoughts"
+tags: "front-page"
 ---
 
 # Intro

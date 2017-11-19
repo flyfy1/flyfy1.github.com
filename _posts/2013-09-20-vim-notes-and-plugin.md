@@ -3,7 +3,7 @@ layout: post
 title: "Vim's Notes on vimrc and Plugins"
 description: "superuser"
 category: superuser
-tags: [vim,settings]
+tags: [vim,settings,front-page]
 ---
 
 For the VIMRC file, the lines below would set the spacings for tab:

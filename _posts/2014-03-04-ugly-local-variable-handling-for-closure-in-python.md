@@ -5,7 +5,7 @@ JavaScript"
 description: "Talk about local variable reference/memory allocation, and how it
 affets closure, in JavaScript / Python"
 category: "language"
-tags: ['python','language']
+tags: ['python','language','front-page']
 ---
 
 I'm used to the JavaScript mindset, where I have closure in basically..

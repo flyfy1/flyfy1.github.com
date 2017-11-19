@@ -4,7 +4,7 @@ title: "Agile Meetup After Thoughts -- Distribute Human Group"
 description: "Just a small write-up after the agile meetup, extracted from my
 diary"
 category: "thoughts"
-tags: ['society', 'ideas', 'agile']
+tags: ['society', 'ideas', 'agile', 'front-page']
 ---
 
 I went to the agile meetup today. I like how the agile meetup runs:

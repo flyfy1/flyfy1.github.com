@@ -3,7 +3,7 @@ layout: post
 title: "Small, Incrementmal Change, in Life"
 description: "Life is long"
 category: "chicken soup"
-tags: []
+tags: ['front-page']
 ---
 
 Life is a long process. People changes throughout their own life, and people
