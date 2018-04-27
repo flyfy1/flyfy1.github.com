@@ -7,7 +7,7 @@ permalink: /about/
 ## Song Yangyu
 
 * National University of Singapore, Graduated
-* Works in [Castlery](http://castlery.com/), currently
+* Works in [90 Seconds](https://90seconds.tv/), currently
 * [Projects](/pages/interesting-projects.html)
 
 ### Contact:
