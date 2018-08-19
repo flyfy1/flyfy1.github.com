@@ -22,3 +22,6 @@ gems:
   - jekyll-sitemap
 
 theme: jekyll-theme-time-machine
+
+exclude:
+  - Rakefile
