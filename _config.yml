@@ -18,7 +18,7 @@ github_username:  flyfy1
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-sitemap
 
 theme: jekyll-theme-time-machine
