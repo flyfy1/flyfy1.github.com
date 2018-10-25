@@ -2,6 +2,7 @@
 layout: post
 title: "Testing Result not Detail"
 category: "testing"
+tags: "front-page"
 ---
 
 When writing specs, I think the spec should describe implementation result, but 
