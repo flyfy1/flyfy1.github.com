@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2016-2017年读了的书
-permalink: /books-2016/
+title: 读了的书
+permalink: /books-read/
 ---
 
 Listing a list of books in the past. I was originally including it within one
