@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
-gem 'jekyll-avatar'
+
+# <https://github.com/benbalter/jekyll-avatar>
+# gem 'jekyll-avatar' -- disabled for now, since I'm not using it
 gem 'jekyll-archives'
 
 group :test, :development do
