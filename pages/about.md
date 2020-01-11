@@ -7,7 +7,7 @@ permalink: /about/
 ## Song Yangyu
 
 * National University of Singapore, Graduated
-* Works in [90 Seconds](https://90seconds.tv/), currently
+* Works in [Grab](https://www.grab.com/sg/), currently
 * [Projects](/pages/interesting-projects.html)
 
 ### Contact:
