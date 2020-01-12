@@ -10,8 +10,7 @@ I actually prepared for a set of slides, plus, made a talk about this.
 
 Here's the picture after the talk:
 
-![Book Club After](
-https://dl.dropboxusercontent.com/u/9778027/LifeRecord/2016-07-30-book-club.jpg)
+![Book Club After](/assets/life/2016-07-30-book-club.jpg)
 
 I prepared like.. 40 slides; and here're some of my short insiprations.
 

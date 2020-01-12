@@ -282,7 +282,7 @@ Together with a the title of the talks
     1. Why I organise Rails Girls - Elisha Tan / @elishatan
     2. Winston Teo - TBC
     3. 5 Random Enumerators Tips - Grzegorz Witek / @arnvald
-  - Random Ruby Tips(<https://dl.dropboxusercontent.com/u/97272686/5%20enumerator%20tips.md>)
+  - Random Ruby Tips
 
           # Tip 1
           ## Enumerator as external iterator

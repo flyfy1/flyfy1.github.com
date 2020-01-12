@@ -72,9 +72,4 @@ Here're several pain points I'm having:
    need to press the `DEL` that often. In the mean while, although difficult to
    press, I think 
 
-
-
-
-
-
-[layout]: https://dl.dropboxusercontent.com/u/9778027/images/hhkbp2_basic_layout1500.png 
+[layout]: /assets/posts/hhkbp2_basic_layout1500.png

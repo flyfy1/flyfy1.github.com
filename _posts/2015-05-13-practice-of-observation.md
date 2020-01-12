@@ -53,7 +53,7 @@ Here the game starts :)
 Let me start with one example. Here's a picture of a bottle of Alcohol, which I
 drink yesterday.
 
-![Image of An Alcohol](https://dl.dropboxusercontent.com/u/9778027/images/poo-alocohol.jpg)
+![Image of An Alcohol](/assets/poo/poo-alocohol.jpg)
 
 The analysis starts now:
 
@@ -70,7 +70,7 @@ The analysis starts now:
 ## 14 May 2015
 
 Image of today: 
-![Image of A lift](https://dl.dropboxusercontent.com/u/9778027/images/poo-lift.jpg)
+![Image of A lift](/assets/poo/poo-lift.jpg)
 
 The analysis starts now:
 
@@ -101,7 +101,7 @@ Keep doing, don't settle :)
 
 ## 15 May 2015
 this is a photo taken downstair of the block I'm staying.
-![Image of A downstairs](https://dl.dropboxusercontent.com/u/9778027/images/poo-downstairs.jpg)
+![Image of A downstairs](/assets/poo/poo-downstairs.jpg)
 
 The analysis starts now:
 
@@ -119,7 +119,7 @@ The analysis starts now:
 
 ## 16 May 2015
 this is a well cover I passed by on the road.
-![Well Cover](https://dl.dropboxusercontent.com/u/9778027/poo/20150517_well_cover.jpg)
+![Well Cover](/assets/poo/20150517_well_cover.jpg)
 
 The analysis starts now:
 
@@ -136,7 +136,7 @@ The analysis starts now:
 
 ## 17 May 2015
 this is a light button I toke on my way back home.
-![Light Button](https://dl.dropboxusercontent.com/u/9778027/poo/20150518_light_button.jpg)
+![Light Button](/assets/poo/20150518_light_button.jpg)
 
 The analysis starts now:
 
@@ -159,7 +159,7 @@ The analysis starts now:
 Let's pause analysizing picture for a moment. Let's think about.. how to make
 use of a used bottle.
 
-![Bottle of Fish Oil](https://dl.dropboxusercontent.com/u/9778027/poo/20150519_reuse_bottleOfFishOil.jpg)
+![Bottle of Fish Oil](/assets/poo/20150519_reuse_bottleOfFishOil.jpg)
 
 Thinking about the properties of the bottle:
 
@@ -184,7 +184,7 @@ So.. there're several possible usages:
 this is a shoe from a girl. She wore it today and her foot got worn out. She
 bought this shoe in a small store in VivoCity, around $10 per pair.
 
-![New Shoe](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_newShoe.jpeg)
+![New Shoe](/assets/poo/20150520_newShoe.jpeg)
 
 1. It looks quite new; near the top of the shoe, there're some small fur.
    Indicates that it is.. not a very expensive one. (which is already stated)
@@ -197,7 +197,7 @@ bought this shoe in a small store in VivoCity, around $10 per pair.
 Let's think about something interesting -- how to help increase the sales of
 this shop.
 
-![Shop need Sales](https://dl.dropboxusercontent.com/u/9778027/poo/20150520_shop.jpg)
+![Shop need Sales](/assets/poo/20150520_shop.jpg)
 
 
 So the interesting questions comes is... how to increase the sales. That's

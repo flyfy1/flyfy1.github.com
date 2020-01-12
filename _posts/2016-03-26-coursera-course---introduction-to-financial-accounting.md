@@ -40,25 +40,25 @@ This week is about:
 - Debit and Credit
 
 *Question 1 and 2*
-![Question 1, 2](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q1_2.png)
+![Question 1, 2](/assets/coursera/accounting_intro/week1_q1_2.png)
 
 *Question 3*
-![Question 3](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q3.png)
+![Question 3](/assets/coursera/accounting_intro/week1_q3.png)
 
 *Question 4 to 6*
-![Question 4 to 6](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q4_6.png)
+![Question 4 to 6](/assets/coursera/accounting_intro/week1_q4_6.png)
 
 *Question 7*
-![Question 7](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q7.png)
+![Question 7](/assets/coursera/accounting_intro/week1_q7.png)
 
 *Question 8*
-![Question 8](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q8.png)
+![Question 8](/assets/coursera/accounting_intro/week1_q8.png)
 
 *Question 9*
-![Question 9](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q9.png)
+![Question 9](/assets/coursera/accounting_intro/week1_q9.png)
 
 *Question 10*
-![Question 10](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week1_q10.png)
+![Question 10](/assets/coursera/accounting_intro/week1_q10.png)
 
 
 # Week 2
@@ -68,13 +68,13 @@ This week is about:
 - Revenue and Expenses
 
 *Question 1 - 2*
-![Questino 1, 2](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q1_2.png)
+![Questino 1, 2](/assets/coursera/accounting_intro/week2_q1_2.png)
 
 *Question 3 - 4*
-![Questino 3, 4](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q3_4.png)
+![Questino 3, 4](/assets/coursera/accounting_intro/week2_q3_4.png)
 
 *Question 5 - 7*
-![Questino 5 - 7](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q5-7.png)
+![Questino 5 - 7](/assets/coursera/accounting_intro/week2_q5-7.png)
 
 *Question 8 - 10*
-![Questino 8 - 10](https://dl.dropboxusercontent.com/u/9778027/coursera/Introduction%20to%20Financial%20Accounting/week2_q8_10.png)
+![Questino 8 - 10](/assets/coursera/accounting_intro/week2_q8_10.png)

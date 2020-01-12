@@ -18,7 +18,7 @@ starts and runs faster
 ## 1. Check your task bar
 As you can see from the image below, items in the taskbar can be set to start at
 login. (Amazing, hmm?)
-![Taskbar Login Item](https://dl.dropboxusercontent.com/u/9778027/images/taskbar_startup.png)
+![Taskbar Login Item](/assets/computer/taskbar_startup.png)
 
 ## 2. Check your startup setting.
 Go to: System Preference -> Users&Group -> Login Items, and tick those you don not want

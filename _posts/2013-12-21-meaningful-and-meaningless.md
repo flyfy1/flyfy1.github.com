@@ -22,8 +22,7 @@ work. Why?
 This graph below can pretty nicely illustrate the reason why people tends to
 invest their time into the not-so-urgent things
 
-![Importance vs
-Urgence](https://dl.dropboxusercontent.com/u/9778027/images/discuss-importance.png)
+![Importance vs Urgency](/assets/posts/discuss-importance.png)
 
 To make it easy: for the urgent and important things, people have no chance and
 have to do, and the experience is definitely not so good -- because one
