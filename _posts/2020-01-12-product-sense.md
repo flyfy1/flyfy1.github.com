@@ -42,4 +42,13 @@ I need to keep a product sense.. it has the following aspects:
 - upgraded `definition of done`: task is actually done, when there is some good
   presentable result. Otherwise, it's just `abondoned`
 - `Done is better than Perfect`. That means, I need to continuously deliver the
-  presentable (and probably, internediate) result to get milestones
+  presentable (and probably, intermediate) result to get milestones
+- Focus on deliverable / Hackathon Mindset. 
+  - when I start to work on something, I tends to find "best practices". However, these are extra works which makes
+    completing a task further away from me.
+  - I should focus on the actual deliverable, on the original goal: what I initially want to achieve. Doing things in 
+    right right approach, but not completing the task, is indeed a wrong approach.
+  - the Hackathon Mindset is correct: in a certain period of time, focus on one thing only, trying to produce a 
+    presentable product. When I cannot produce the actual result, at least show the mock-ups
+  - what's actually presentable is more important than a perfect backend. If I build a perfectly stable & scalable 
+    backend, but nobody actually use it -- it means nothing. Because what I have built would never get used
