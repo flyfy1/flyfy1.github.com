@@ -15,6 +15,12 @@ This is the blog of Song Yangyu. Check out here: <http://flyfy1.github.io/>
 bundle install
 ```
 
+### Local Server
+
+```bash
+bundle exec jekyll serve
+```
+
 ### New Article
 
 To create new post, do:
