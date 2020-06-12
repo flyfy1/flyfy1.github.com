@@ -6,6 +6,23 @@ category: "review"
 tags: [keyboard, hardware, review, front-page]
 ---
 
+# Update as of 2020-06-12
+
+I've been using HHKB happily since I first bought it.
+
+What's more, I have 2 HHKB now -- one for office, one for home. So that I have exactly the same setup for all my workstations.
+
+I've also used to the location of the control key on HHKB now. Actually, whenever I use a new Laptop, the first thing is
+to put switch the control key with the caps-lock key.
+
+What I like the most about HHKB is that, it has 2 USB extension port. I can connect a mouse to it -- so that I can just
+connect a single cable to my Desktop/Laptop's USB port. It makes my table cleaner.
+
+However, my colleges complains on the noise produced out of this keyboard, even if I used the type-S version (which is
+supposed to be quieter).
+
+# Original Post
+
 I've bought a keyboard recently, HHKB. Here's one from [amazon](http://www.amazon.com/Happy-Hacking-Keyboard-Professional2-Black/dp/B000EXZ0VC)
 
 Actually, at the time when I bought it, I'm not exactly sure if I need it or 
