@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Learner's Thoughts
+title: Yangyu's Notes
 email: flyfy1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the ideas from Songyy.
+  This is the ideas from Yangyu Song.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flyfy1.github.io" # the base hostname & protocol for your site
 twitter_username: songyangyu
@@ -20,6 +20,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
+  - jekyll-archives
 
 theme: jekyll-theme-time-machine
 
@@ -27,11 +28,14 @@ exclude:
   - Rakefile
 
 jekyll-archives:
-  enabled: all
-  layout: archive
+  enabled:
+    - year
+    - tags
+    - categories
+  layouts: archive
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
-    day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+    day: '/:year/:month/:day/'
