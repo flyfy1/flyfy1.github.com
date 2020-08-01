@@ -2,7 +2,7 @@
 layout: post
 title: "iOS和Android上面的（不错的）App们"
 description: "记录我在iOS和Android上面的常用的App"
-category: "record"
+category: "superuser"
 tags: [iOS,android,App]
 ---
 

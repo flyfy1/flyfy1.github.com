@@ -2,7 +2,7 @@
 layout: post
 title: "HTML5 Player Suddenly no sound -- ended up with rediculous reason"
 description: "What I thought the problem to be might not be the actual problem"
-category: "problem solving"
+category: "problem-solving"
 tags: ["problem solving"]
 ---
 

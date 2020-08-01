@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Transform Any Website into Desktop App via Electron, in Ubuntu"
-category: "web"
+category: "superuser"
 tags: "front-page"
 ---
 

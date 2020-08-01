@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "on Objective, and Focus"
-category: "thinking"
+category: "thoughts"
 tags: "front-page"
 ---
 

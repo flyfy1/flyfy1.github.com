@@ -2,7 +2,7 @@
 layout: post
 title: "tmux use and configures"
 description: "Notes about the tmux usage"
-category: "terminal"
+category: "superuser"
 tags: [tmux,terminal]
 ---
 

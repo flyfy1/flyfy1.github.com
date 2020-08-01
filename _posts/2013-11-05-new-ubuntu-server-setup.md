@@ -2,7 +2,7 @@
 layout: post
 title: "New Ubuntu Server Setup"
 description: "Recording down steps to setup a Ubuntu Server"
-category: "tools"
+category: "superuser"
 tags: [ubuntu,setup,front-page]
 ---
 
