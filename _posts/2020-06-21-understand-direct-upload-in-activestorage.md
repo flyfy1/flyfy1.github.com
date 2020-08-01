@@ -72,3 +72,8 @@ code base, we can also see that it's used in the controller file:
       })
     end
 ```
+
+## Try the URL from Local Appt 
+
+To make sure that our understanding is correct, we can try it out in our local rails app.
+
