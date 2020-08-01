@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Random Ruby Tips"
-category: "summary"
+category: "language"
 tags: "front-page"
 ---
 
