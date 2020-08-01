@@ -2,7 +2,7 @@
 layout: post
 title: "OpenCV related setups"
 description: "Notes on OpenCV, and tips"
-category: "opencv"
+category: "superuser"
 tags: [opencv]
 ---
 

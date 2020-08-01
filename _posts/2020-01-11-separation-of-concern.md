@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Separation of Concern"
-category: "process"
+category: "work"
 tags: "front-page"
 ---
 

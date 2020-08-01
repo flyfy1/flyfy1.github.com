@@ -2,6 +2,7 @@
 layout: post
 title: "Facts About Me"
 category: "selfie"
+published: false
 ---
 
 来自于知乎上面的一个回答。自己放匿名了。不过我觉得是可以放这里的（反正也没啥人看

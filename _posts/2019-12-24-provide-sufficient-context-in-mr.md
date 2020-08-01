@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Provide Sufficient Context in the Merge Request"
-category: "development"
+category: "work"
 tags: "front-page"
 ---
 

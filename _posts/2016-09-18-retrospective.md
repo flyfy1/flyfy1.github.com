@@ -2,6 +2,7 @@
 layout: post
 title: "Retrospective"
 category: "reflection"
+published: false
 ---
 
 I had a in-depth talk with a senior of mine. Some of the questions discussed:

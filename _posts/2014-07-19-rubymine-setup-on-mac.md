@@ -2,7 +2,7 @@
 layout: post
 title: "RubyMine setup on mac"
 description: "A pretty short description about setting up Rubymine on Mac"
-category: "tips"
+category: "superuser"
 tags: ['tools','RubyMine','productivity']
 ---
 

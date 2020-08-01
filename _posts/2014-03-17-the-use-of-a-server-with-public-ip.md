@@ -2,7 +2,7 @@
 layout: post
 title: "The use of a server (with public IP)"
 description: "This post would talk about how I make use of my server"
-category: "super-user"
+category: "superuser"
 tags: [front-page]
 ---
 
