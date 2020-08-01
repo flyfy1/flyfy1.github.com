@@ -17,7 +17,12 @@ github_username:  flyfy1
 
 # use permalink without category info, so that I can move among categories easily
 # note that this applies to post only
-permalink: /:year/:month/:day/:title:output_ext
+#permalink: /:year/:month/:day/:title:output_ext
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title:output_ext
 
 # Build settings
 markdown: kramdown

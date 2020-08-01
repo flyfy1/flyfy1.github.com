@@ -2,7 +2,7 @@
 layout: post
 title: "The Strong Weak Person"
 category: "thoughts"
-tags: "front-page"
+tags: "front-page,featured"
 ---
 
 > Some people are alive.. but they are already dead. Some people has died, but
