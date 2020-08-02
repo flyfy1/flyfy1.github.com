@@ -4,6 +4,7 @@ title: "LeetCode -- Permutation"
 description: "http://oj.leetcode.com/submissions/detail/1690284/"
 category: "leetcode"
 tags: ['permutation']
+lang: en
 ---
 
 Cpp is used cuz it have the `next-permutation` from algorithm.h.

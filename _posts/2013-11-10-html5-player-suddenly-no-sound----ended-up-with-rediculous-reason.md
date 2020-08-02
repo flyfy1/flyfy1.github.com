@@ -4,6 +4,7 @@ title: "HTML5 Player Suddenly no sound -- ended up with rediculous reason"
 description: "What I thought the problem to be might not be the actual problem"
 category: "problem-solving"
 tags: ["problem solving"]
+lang: en
 ---
 
 I like the HTML5 player very much, becaue it gives me an option of viewing at 1.5 speed.

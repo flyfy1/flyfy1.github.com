@@ -3,6 +3,7 @@ layout: post
 title: "Retrospective"
 category: "reflection"
 published: false
+lang: en
 ---
 
 I had a in-depth talk with a senior of mine. Some of the questions discussed:

@@ -4,6 +4,7 @@ title: "LeetCode    Search Insert Position"
 description: "http://oj.leetcode.com/problems/search-insert-position/"
 category: "leetcode"
 tags: ['binary-search']
+lang: en
 ---
 
 Note that both cpp and java has the binary-search implementation: in cpp, it has `binary_search` from stl, and `bsearch` from `stdlib`; in Java, we have `Arrays.binary_search`. But it seems that none of them returns the best-approximate (inserting location) when there is no such element. 

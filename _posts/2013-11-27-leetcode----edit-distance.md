@@ -4,6 +4,7 @@ title: "LeetCode -- Edit Distance"
 description: "http://oj.leetcode.com/problems/edit-distance/"
 category: "leetcode"
 tags: ['dp']
+lang: en
 ---
 
 Another traditional DP problem. DP is easy once one got the transition formula.

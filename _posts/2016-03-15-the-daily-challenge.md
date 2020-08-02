@@ -3,6 +3,7 @@ layout: post
 title: "The Daily Challenge"
 category: "activity"
 tags: "front-page"
+lang: en
 ---
 
 This is the idae, continued from yesterday's [the weekend

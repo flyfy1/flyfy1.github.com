@@ -4,6 +4,7 @@ title: "LeetCode -- Sum Root to Leaf Numbers "
 description: "http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/"
 category: "leetcode"
 tags: []
+lang: en
 ---
 
 Got it wrong once... Again I love recursion :)

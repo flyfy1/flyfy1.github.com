@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Testing Result not Detail"
-category: "testing"
-tags: "front-page"
+category: "code-structure"
+tags: ["front-page"]
+lang: en
 ---
 
 When writing specs, I think the spec should describe implementation result, but 

@@ -4,6 +4,7 @@ title: "LeetCode -- LinkedListCycle"
 description: ""
 category: "leetcode"
 tags: ["recursion",'linked-list']
+lang: en
 ---
 
 I love recursion :) It maks implemnetion simple, and elegant.

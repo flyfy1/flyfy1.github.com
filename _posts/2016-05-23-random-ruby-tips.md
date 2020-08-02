@@ -3,6 +3,7 @@ layout: post
 title: "Random Ruby Tips"
 category: "language"
 tags: "front-page"
+lang: en
 ---
 
 Here's a summary of the history of Random Ruby Tips for the ruby meetup..

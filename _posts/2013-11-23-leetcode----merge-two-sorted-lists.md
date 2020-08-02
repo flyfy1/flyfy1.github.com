@@ -4,6 +4,7 @@ title: "LeetCode -- Merge Two Sorted Lists "
 description: "http://oj.leetcode.com/problems/merge-two-sorted-lists/"
 category: "leetcode"
 tags: ['list']
+lang: en
 ---
 
 Again I love recursion.

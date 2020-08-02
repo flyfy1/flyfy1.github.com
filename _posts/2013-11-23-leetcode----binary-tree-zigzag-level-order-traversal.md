@@ -4,6 +4,7 @@ title: "LeetCode -- binary tree zigzag level order traversal"
 description: "http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
 category: "leetcode"
 tags: ["tree"]
+lang: en
 ---
 
 BFS traverse through the tree, record each level in order; reverse the necessary ones.

@@ -4,6 +4,7 @@ title: "LeetCode -- Sort List"
 description: "http://oj.leetcode.com/problems/sort-list/"
 category: "leetcode"
 tags: ['merge-sort','linked-list']
+lang: en
 ---
 
 I believe this is a pretty hard one.

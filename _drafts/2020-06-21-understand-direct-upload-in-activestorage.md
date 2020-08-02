@@ -3,6 +3,7 @@ layout: post
 title: "Understand Direct Upload in ActiveStorage"
 category: "rails"
 published: false
+lang: en
 ---
 
 # Intro

@@ -2,7 +2,8 @@
 layout: post
 title: "Provide Sufficient Context in the Merge Request"
 category: "work"
-tags: "front-page"
+tags: ["front-page"]
+lang: en
 ---
 
 # TL;DR

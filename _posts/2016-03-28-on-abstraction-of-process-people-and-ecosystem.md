@@ -2,7 +2,8 @@
 layout: post
 title: "On Abstraction of Process, People, and Ecosystem"
 category: "thoughts"
-tags: "front-page"
+tags: ["front-page", featured]
+lang: en
 ---
 
 Abstraction is a pretty interesting topic. It's needed cuz huamn mind cannot

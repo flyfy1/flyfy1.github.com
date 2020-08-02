@@ -3,6 +3,7 @@ layout: post
 title: "未来的样子 - 关于技能"
 category: "methodology"
 tags: "front-page"
+lang: cn
 ---
 
 ## 思考未来趋势的意义

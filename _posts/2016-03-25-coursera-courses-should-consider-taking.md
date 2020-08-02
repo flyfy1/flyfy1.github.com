@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Coursera Courses should Consider Taking"
-category: "resources"
+category: "notes"
+lang: en
 ---
 
 Learning is a life-long process; and its always wise to use the money to invest

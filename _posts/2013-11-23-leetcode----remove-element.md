@@ -4,6 +4,7 @@ title: "LeetCode -- Remove Element"
 description: "http://oj.leetcode.com/problems/remove-element/"
 category: "leetcode"
 tags: []
+lang: en
 ---
 
 Simple question, the code seems to be pretty elegant though :)

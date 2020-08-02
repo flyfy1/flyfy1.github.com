@@ -2,8 +2,9 @@
 layout: post
 title: "Github talk Notes"
 description: "talk"
-category: "talk"
+category: "notes"
 tags: ['talk','notes','github']
+lang: en
 ---
 
 Jotting down some notes about Github during the ruby meet-up Dec.

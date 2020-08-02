@@ -4,6 +4,7 @@ title: "LeetCode -- Count and Say"
 description: "http://oj.leetcode.com/problems/count-and-say/"
 category: "leetcode"
 tags: ["implementation"]
+lang: en
 ---
 
 It has become a (good) habit to do at least one problem a day, more or less cuz the problems from LeetCode are mostly pretty easy to solve.

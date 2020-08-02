@@ -4,6 +4,7 @@ title: "LeetCode -- Best Time to Buy and Sell Stock II"
 description: "http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
 category: "leetcode"
 tags: ['leetcode']
+lang: en
 ---
 
 Idea is important. The idea for this problem is just to buy when the price is about to increase, and to sell when the price is about to fall (Since there is no tranaction fee;)

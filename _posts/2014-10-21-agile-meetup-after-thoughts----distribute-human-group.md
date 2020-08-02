@@ -5,6 +5,7 @@ description: "Just a small write-up after the agile meetup, extracted from my
 diary"
 category: "thoughts"
 tags: ['society', 'ideas', 'agile', 'front-page']
+lang: en
 ---
 
 I went to the agile meetup today. I like how the agile meetup runs:

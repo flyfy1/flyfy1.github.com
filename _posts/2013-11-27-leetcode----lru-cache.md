@@ -4,6 +4,7 @@ title: "LeetCode -- LRU Cache"
 description: ""
 category: "leetcode"
 tags: []
+lang: en
 ---
 
 It was during Google's Second round of phone interviwe did I first encounter this problem. I didn't know about LRU algorithm at that time, therefore I was not able to do the implementation.

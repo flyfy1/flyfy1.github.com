@@ -3,6 +3,7 @@ layout: post
 title: "Product Sense, and Upgraded Definition of Done"
 category: "methodology"
 tags: "front-page"
+lang: en
 ---
 
 ## Situation

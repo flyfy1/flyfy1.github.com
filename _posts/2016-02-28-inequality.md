@@ -4,6 +4,7 @@ title: "Inequality"
 description: "About inequality in different areas: job, industry, code, human."
 category: "thoughts"
 tags: ['thoughts','front-page']
+lang: en
 ---
 
 # InEquality

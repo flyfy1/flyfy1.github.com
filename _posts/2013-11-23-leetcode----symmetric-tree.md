@@ -4,6 +4,7 @@ title: "LeetCode -- Symmetric Tree"
 description: "http://oj.leetcode.com/problems/symmetric-tree/"
 category: "leetcode"
 tags: []
+lang: en
 ---
 
 Seems clueless at first.. then recursion gave me idea :)

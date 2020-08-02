@@ -2,7 +2,8 @@
 layout: post
 title: "Separation of Concern"
 category: "work"
-tags: "front-page"
+tags: ["front-page", featured]
+lang: en
 ---
 
 ## Situation

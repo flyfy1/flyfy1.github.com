@@ -4,6 +4,8 @@ title: "Practice of Observation"
 description: "This is about a practice of Observation"
 category: "observation"
 tags: []
+published: false
+lang: en
 ---
 
 The ability of observation & analysis is pretty important: it basically helps

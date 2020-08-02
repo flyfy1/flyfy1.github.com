@@ -4,6 +4,7 @@ title: "LeetCode -- Rotate Image"
 description: "http://oj.leetcode.com/problems/rotate-image/"
 category: "leetcode"
 tags: ['math']
+lang: en
 ---
 
 Math problem, array manipulation.  

@@ -4,6 +4,7 @@ title: "LeetCode -- n-Queens"
 description: "http://oj.leetcode.com/problems/n-queens/"
 category: "leetcode"
 tags: ['back-tracking','recursion']
+lang: en
 ---
 
 This is the traditional 8-Queen problem, standard backtracking solution, pretty familiar with it now.

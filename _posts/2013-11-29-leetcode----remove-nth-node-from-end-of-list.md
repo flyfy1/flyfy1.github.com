@@ -4,6 +4,7 @@ title: "LeetCode -- Remove Nth Node From End of List"
 description: "http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/"
 category: "leetcode"
 tags: ['linked-list']
+lang: en
 ---
 
 Use a buffer to remember the n last nodes.

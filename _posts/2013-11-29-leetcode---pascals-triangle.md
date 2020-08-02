@@ -4,6 +4,7 @@ title: "Pascal's Triangle"
 description: "http://oj.leetcode.com/problems/pascals-triangle/"
 category: "leetcode"
 tags: ['math','vector']
+lang: en
 ---
 
 Math generation problem. I believe this code below is quite compact

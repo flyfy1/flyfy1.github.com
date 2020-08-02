@@ -4,6 +4,7 @@ title: "LeetCode    Climbing Stairs"
 description: "http://oj.leetcode.com/problems/climbing-stairs/"
 category: "leetcode"
 tags: ['dp']
+lang: en
 ---
 
 Simple DP. Done before.

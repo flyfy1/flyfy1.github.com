@@ -4,6 +4,7 @@ title: "LeetCode -- Populating Next Right Pointers In Each Node"
 description: "http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/"
 category: "leetcode"
 tags: ['tree']
+lang: en
 ---
 
 Idea is pretty similiar to `Binary Tree Zigzag Level Order Traversal` -- Traverse through the tree using BFS, and memorize the node at each level in order. Then just link up the nodes.

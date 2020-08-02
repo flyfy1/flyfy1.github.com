@@ -4,6 +4,7 @@ title: "LeetCode -- Remove Duplicates from Sorted List "
 description: "http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/"
 category: "leetcode"
 tags: []
+lang: en
 ---
 
 Simple problem. Standard solution.

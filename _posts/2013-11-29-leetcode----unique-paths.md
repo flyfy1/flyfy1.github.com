@@ -4,6 +4,7 @@ title: "LeetCode -- Unique Paths "
 description: "http://oj.leetcode.com/problems/unique-paths/"
 category: "leetcode"
 tags: ['math']
+lang: en
 ---
 
 When there're two methods, I'll always pick the easier ones.

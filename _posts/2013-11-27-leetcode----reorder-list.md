@@ -4,6 +4,7 @@ title: "LeetCode -- Reorder List"
 description: "http://oj.leetcode.com/problems/reorder-list/"
 category: "leetcode"
 tags: ['linked-list']
+lang: en
 ---
 
 I definitely need more practice on the list operations.

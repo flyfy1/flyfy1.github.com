@@ -4,6 +4,7 @@ title: "iOS和Android上面的（不错的）App们"
 description: "记录我在iOS和Android上面的常用的App"
 category: "superuser"
 tags: [iOS,android,App]
+lang: cn
 ---
 
 在这里记录下我在iOS和Android平台上面的App使用情况。

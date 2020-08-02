@@ -4,6 +4,7 @@ title: "LeetCode -- Remove Duplicates from Sorted Array"
 description: "http://oj.leetcode.com/problems/remove-duplicates-from-sorted-array/"
 category: "leetcode"
 tags: ['array']
+lang: en
 ---
 
 Solution similiar to `remove-element`.

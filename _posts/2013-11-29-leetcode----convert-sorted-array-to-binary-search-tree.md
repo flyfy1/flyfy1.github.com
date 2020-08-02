@@ -4,6 +4,7 @@ title: "LeetCode -- Convert Sorted Array to Binary Search Tree"
 description: "http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/"
 category: "leetcode"
 tags: ['bst','array']
+lang: en
 ---
 
 When there's incursion, the solution is really easy ;)

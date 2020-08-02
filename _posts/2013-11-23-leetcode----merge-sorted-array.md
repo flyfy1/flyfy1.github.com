@@ -4,6 +4,7 @@ title: "LeetCode -- Merge Sorted Array"
 description: "http://oj.leetcode.com/problems/merge-sorted-array/"
 category: "leetcode"
 tags: ['array','merge']
+lang: en
 ---
 
 {% highlight cpp %}

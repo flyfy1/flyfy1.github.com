@@ -4,6 +4,7 @@ title: "LeetCode -- Valid Number"
 description: "http://oj.leetcode.com/problems/valid-number/"
 category: "leetcode"
 tags: ['regex','number']
+lang: en
 ---
 
 Using java, cuz I am more familiar with Java's Regex.

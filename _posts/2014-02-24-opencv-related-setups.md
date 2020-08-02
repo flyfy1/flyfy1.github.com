@@ -2,8 +2,9 @@
 layout: post
 title: "OpenCV related setups"
 description: "Notes on OpenCV, and tips"
-category: "superuser"
-tags: [opencv]
+category: "notes"
+tags: [opencv,devops]
+lang: en
 ---
 
 

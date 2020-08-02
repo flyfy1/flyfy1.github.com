@@ -5,6 +5,7 @@ description: "Preparation for exam essay"
 category: "hr2002"
 tags: ['essay','hr2002','globalization',front-page]
 published: false
+lang: en
 ---
 
     "Globalisation presents more career opportunities than threats". Discuss

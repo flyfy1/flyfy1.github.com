@@ -2,8 +2,10 @@
 layout: post
 title: "RubyMine setup on mac"
 description: "A pretty short description about setting up Rubymine on Mac"
-category: "superuser"
+category: "notes"
+published: false
 tags: ['tools','RubyMine','productivity']
+lang: en
 ---
 
 RubyMine is a pretty nice tool for.. as you can see, ruby Development. It based

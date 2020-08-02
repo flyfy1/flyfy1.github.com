@@ -4,6 +4,7 @@ title: "AWS EC2 Public IP setup"
 description: "A bit of struggling to setup the ec2's public IP.. finally inspiration comes"
 category: "problem-solving"
 tags: [aws, ec2, network]
+lang: en
 ---
 
 I have just applied for EC2 (free 1 year account), and did a basic setup to make Rails run.

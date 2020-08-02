@@ -4,6 +4,7 @@ title: "Rails Multi Table Inheritance"
 description: "Method to have multi-table inheritance in Rails 4.0"
 category: "rails"
 tags: ['rails','technique']
+lang: en
 ---
 
 ## The Actual Problem

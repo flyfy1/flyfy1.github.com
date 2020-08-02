@@ -4,6 +4,7 @@ title: "LeetCode -- Linked List Cycle II"
 description: ""
 category: "leetcode"
 tags: ['linked-list']
+lang: en
 ---
 
 The solution is quite simple, but the idea is hard to come up with. Here's the idea:

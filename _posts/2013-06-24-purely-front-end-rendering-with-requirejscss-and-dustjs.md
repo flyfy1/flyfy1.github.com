@@ -2,8 +2,9 @@
 layout: post
 title: "Purely Front End rendering with RequireJS/CSS and DustJS"
 description: ""
-category: web-dev
-tags: [web, front-end, javascript]
+category: web
+tags: [web, front-end, javascript, frontpage]
+lang: en
 ---
 
 ## Introduction

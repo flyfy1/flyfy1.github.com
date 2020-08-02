@@ -4,6 +4,7 @@ title: "LeetCode -- Best Time to Buy and Sell Stock"
 description: "http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/"
 category: "leetcode"
 tags: ['leetcode']
+lang: en
 ---
 
 I somehow feel this is harder than the 'best-time-to-buy-and-sell-stock-ii' version.

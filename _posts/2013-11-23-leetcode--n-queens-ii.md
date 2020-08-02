@@ -4,6 +4,7 @@ title: "Leetcode -- n-Queens II"
 description: ""
 category: "leetcode"
 tags: ['trick','hardcode']
+lang: en
 ---
 
 I must confess that I don't really think my solution is correct.. but I got ACed anyway..

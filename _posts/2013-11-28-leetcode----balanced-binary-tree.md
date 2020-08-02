@@ -4,6 +4,7 @@ title: "LeetCode -- Balanced Binary Tree"
 description: "http://oj.leetcode.com/problems/balanced-binary-tree/"
 category: "leetcode"
 tags: ['bst']
+lang: en
 ---
 
 BST Problem, resursion is most-likely the easist one.

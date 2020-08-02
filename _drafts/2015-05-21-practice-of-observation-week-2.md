@@ -4,6 +4,8 @@ title: "Practice of Observation Week 2"
 description: "Second week of my practice of observation"
 category: "observation"
 tags: []
+published: false
+lang: en
 ---
 
 About the rule of this game, refer to the [first post](/observation/2015/05/13/practice-of-observation/)

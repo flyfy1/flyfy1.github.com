@@ -4,6 +4,7 @@ title: "LeetCode -- Maximum Subarray"
 description: "http://oj.leetcode.com/problems/maximum-subarray/"
 category: "leetcode"
 tags: ['dp','array']
+lang: en
 ---
 
 If thinking about reducing the duplicate steps, then this traditional method of

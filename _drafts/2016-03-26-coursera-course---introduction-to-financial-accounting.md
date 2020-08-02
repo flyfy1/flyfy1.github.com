@@ -2,6 +2,8 @@
 layout: post
 title: "Coursera Course -- Introduction to Financial Accounting"
 category: "mooc"
+published: false
+lang: en
 ---
 
 Continued from the last post [on coursera courses](

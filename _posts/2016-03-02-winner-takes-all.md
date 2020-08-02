@@ -4,6 +4,7 @@ title: "Winner Takes All - About competition in the Internet"
 category: "thoughts"
 description: 'due to the nature of internet, competition is a winner-take-all game'
 tags: "front-page"
+lang: en
 ---
 
 This is a continue, from the last post [InEquality](/thoughts/2016/02/28/inequality.html).

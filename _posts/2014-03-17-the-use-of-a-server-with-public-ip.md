@@ -4,6 +4,7 @@ title: "The use of a server (with public IP)"
 description: "This post would talk about how I make use of my server"
 category: "superuser"
 tags: [front-page]
+lang: en
 ---
 
 I rented a server from [digital ocean](https://www.digitalocean.com/?refcode=e806d5fd28b9). It is $5/month, pretty cheap.

@@ -4,6 +4,7 @@ title: "LeetCode -- Triangle"
 description: "http://oj.leetcode.com/problems/triangle/"
 category: "leetcode"
 tags: ["dp"]
+lang: en
 ---
 
 Interesting solution used for the traditional DP problem.

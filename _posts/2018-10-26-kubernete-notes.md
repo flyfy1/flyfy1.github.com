@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Kubernete Notes"
-category: "devops"
+category: "notes"
+tags: ["devops"]
+lang: en
 ---
 
 ## Steps

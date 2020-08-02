@@ -4,6 +4,7 @@ title: "Small, Incrementmal Change, in Life"
 description: "Life is long"
 category: "chicken soup"
 tags: ['front-page']
+lang: en
 ---
 
 Life is a long process. People changes throughout their own life, and people

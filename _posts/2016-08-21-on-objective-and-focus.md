@@ -2,7 +2,8 @@
 layout: post
 title: "on Objective, and Focus"
 category: "thoughts"
-tags: "front-page"
+tags: ["front-page", featured]
+lang: en
 ---
 
 > One should always reflect upon himself... to keep on the right track, to find

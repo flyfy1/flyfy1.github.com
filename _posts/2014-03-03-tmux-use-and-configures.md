@@ -2,8 +2,9 @@
 layout: post
 title: "tmux use and configures"
 description: "Notes about the tmux usage"
-category: "superuser"
+category: "notes"
 tags: [tmux,terminal]
+lang: en
 ---
 
 - The configure file location: `~/.tmux.conf`

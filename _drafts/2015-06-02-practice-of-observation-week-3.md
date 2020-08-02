@@ -4,6 +4,8 @@ title: "practice of observation week 3"
 description: "Third week of my practice of observation"
 category: "observation"
 tags: []
+published: false
+lang: en
 ---
 
 I was being.. really really lazy previously. While additionally, I'm having some

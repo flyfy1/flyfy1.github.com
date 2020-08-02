@@ -4,6 +4,7 @@ title: "LeetCode -- Same Tree"
 description: "http://oj.leetcode.com/problems/same-tree/"
 category: "leetcode"
 tags: ['easy']
+lang: en
 ---
 
 I love recursion :)

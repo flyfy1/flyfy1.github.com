@@ -4,6 +4,7 @@ title: "LeetCode -- Reverse Int"
 description: "http://oj.leetcode.com/problems/reverse-integer/#"
 category: "leetcode"
 tags: ["simple"]
+lang: en
 ---
 
 I don't really think this is the correct solution.. but this get AC, and it's pretty

@@ -4,6 +4,7 @@ title: "LeetCode -- Sqrt(x)"
 description: "http://oj.leetcode.com/problems/sqrtx/"
 category: "leetcode"
 tags: ['math','binary-search']
+lang: en
 ---
 
 Traditional binary search problem. Special dealt with guess termination condition needed. I got WA twice.

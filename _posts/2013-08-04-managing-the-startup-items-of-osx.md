@@ -3,7 +3,8 @@ layout: post
 title: "Managing the startup items of OSX"
 description: ""
 category: "superuser"
-tags: ["osx","tips"]
+tags: ["osx","tips", "front-page"]
+lang: en
 ---
 
 While using OSX more and more, one may fin the speed of OSX, esp. the starting

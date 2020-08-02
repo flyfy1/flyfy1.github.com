@@ -4,6 +4,7 @@ title: "LeetCode -- Gray Code"
 description: "http://oj.leetcode.com/problems/gray-code/"
 category: "leetcode"
 tags: ['recursion']
+lang: en
 ---
 
 Initially I thought this was a hard problem. It's then easy after noticing the recursion pattern.

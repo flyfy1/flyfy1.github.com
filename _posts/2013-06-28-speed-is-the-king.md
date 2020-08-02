@@ -2,8 +2,9 @@
 layout: post
 title: "Speed is the king"
 description: ""
-category: 
+category: thoughts
 tags: [front-page]
+lang: en
 ---
 
 I've been always believing that.. Idea is cheap, because implementation is hard.

@@ -2,7 +2,8 @@
 layout: post
 title: "Patterns In Rails"
 category: "rails"
-tags: "front-page"
+tags: ["front-page"]
+lang: en
 ---
 
 When I'm reading souce code of Rails, there're some interesting patterns, or
