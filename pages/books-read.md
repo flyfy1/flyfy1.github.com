@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Books Read
+lang: en
 permalink: /books-read/
 ---
 

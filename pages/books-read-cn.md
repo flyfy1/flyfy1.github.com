@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 读了的书
+lang: cn
 permalink: /books-read/cn/
 ---
 
