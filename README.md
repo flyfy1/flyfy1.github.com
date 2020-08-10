@@ -4,8 +4,9 @@ This is the blog of Song Yangyu. Check out here: <http://flyfy1.github.io/>
 
 ## My Convention
 
-- the posts listing on the index page (i.e., the frontpage), are tagged with
-  `front-page`
+- the posts listing on the index page (i.e., the frontpage), are tagged with `front-page`
+- in each page / post, there should be a `lang` property. It's useless right now, but I guess it would be useful in 
+  future
 
 ## Commands
 

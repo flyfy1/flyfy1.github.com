@@ -3,7 +3,7 @@ layout: post
 title: "Purely Front End rendering with RequireJS/CSS and DustJS"
 description: ""
 category: web
-tags: [web, front-end, javascript, frontpage]
+tags: [web, front-end, javascript]
 lang: en
 ---
 
