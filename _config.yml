@@ -31,7 +31,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-cayman
 
 exclude:
   - Rakefile
