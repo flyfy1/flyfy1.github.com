@@ -24,6 +24,8 @@ task :post, [:title, :category] do |t, args|
     post.puts 'layout: post'
     post.puts "title: \"#{title.gsub(/-/, ' ')}\""
     post.puts "category: \"#{category.gsub(/-/, ' ')}\""
+    post.puts "tags: 'front-page'"
+    post.puts "lang: en"
     post.puts '---'
     post.puts "\n"
   end
@@ -43,6 +45,7 @@ task :page, [:title] do |t, args|
     post.puts '---'
     post.puts 'layout: page'
     post.puts "title: \"#{title.gsub(/-/, ' ')}\""
+    post.puts "lang: en"
     post.puts '---'
     post.puts "\n"
   end
