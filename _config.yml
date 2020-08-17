@@ -31,7 +31,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
 
-theme: jekyll-theme-cayman
+# would be using theme of my own
+#theme: jekyll-theme-cayman
 
 exclude:
   - Rakefile
