@@ -27,9 +27,10 @@ collections:
 # Build settings
 markdown: kramdown
 
+# plugins no longer needed
 plugins:
-  - jekyll-sitemap
-  - jekyll-archives
+#  - jekyll-sitemap
+#  - jekyll-archives
 
 # would be using theme of my own
 #theme: jekyll-theme-cayman
