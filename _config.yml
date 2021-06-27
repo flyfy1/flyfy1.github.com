@@ -28,7 +28,8 @@ collections:
 markdown: kramdown
 
 # plugins no longer needed
-plugins: []
+plugins:
+  - jekyll-redirect-from
 #  - jekyll-sitemap
 #  - jekyll-archives
 

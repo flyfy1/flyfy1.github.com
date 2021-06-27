@@ -4,6 +4,8 @@ title: "JS Tricks from JS-puzzlers"
 description: "A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"
 category: "language"
 tags: [language,javascript,front-page]
+redirect_from:
+  - language/2014/02/23/js-tricks-from-js-puzzlers.html
 lang: en
 ---
 

@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-assets"
   gem 'jekyll-archives'
+  gem 'jekyll-redirect-from'
 end
