@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant B as Browser
+    participant S as Server
+    participant C as GCS/S3
+    B->>S: getUploadToken(gwt)
+    S->>C: getOneTimeToken(secret_key)
+    C->>S: resp: oneTimeToken
+    S->>B: resp: oneTimeToken
+
+    Note over B,S: user select file, prepare for frontend upload
+
+    B->>C: uploadFile(oneTimeToken)
+    C->>B: resp: metaData
+    B->>S: submitForm(file: metaData)
+
+    rect rgba(0,0,255,.1)
+    Note right of S: optional step
+    S->>C: validate(file: metaData)
+    C->>S: resp: success
+    end
+
+    S->>B: resp: success
