@@ -5,3 +5,12 @@ theme: "ananke"
 
 permalinks:
   posts: "/:title"
+languages:
+  en:
+    title: "Yangyu's Notes"
+    contentDir: "content/en"
+    weight: 1
+  cn:
+    title: "洋宇的笔记"
+    contentDir: "content/cn"
+googleAnalytics: G-57BKLXW3P2
