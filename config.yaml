@@ -3,8 +3,14 @@ languageCode: 'en-us'
 title: "Yangyu's Notes"
 theme: "ananke"
 
+Paginate: 20
+
 permalinks:
-  posts: "/:title"
+  # TODO: translate .html suffix to the ones without it
+  posts: "/posts/:title"
+
+
+# defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 languages:
   en:
     title: "Yangyu's Notes"
@@ -14,3 +20,6 @@ languages:
     title: "洋宇的笔记"
     contentDir: "content/cn"
 googleAnalytics: G-57BKLXW3P2
+params:
+  author: Yangyu
+  show_reading_time: true
