@@ -1,0 +1,485 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>JS Tricks from JS-puzzlers | Yangyu's Notes</title><meta name=viewport content="width=device-width,minimum-scale=1"><meta name=description content="A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"><meta name=generator content="Hugo 0.101.0"><meta name=robots content="noindex, nofollow"><link rel=stylesheet href=/ananke/css/main.min.css><meta property="og:title" content="JS Tricks from JS-puzzlers"><meta property="og:description" content="A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"><meta property="og:type" content="article"><meta property="og:url" content="https://songyangyu.com/posts/js-tricks-from-js-puzzlers/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2014-02-23T00:00:00+08:00"><meta property="article:modified_time" content="2014-02-23T00:00:00+08:00"><meta property="og:site_name" content="Yangyu's Notes"><meta itemprop=name content="JS Tricks from JS-puzzlers"><meta itemprop=description content="A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"><meta itemprop=datePublished content="2014-02-23T00:00:00+08:00"><meta itemprop=dateModified content="2014-02-23T00:00:00+08:00"><meta itemprop=wordCount content="1959"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="JS Tricks from JS-puzzlers"><meta name=twitter:description content="A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"></head><body class="ma0 avenir bg-near-white"><header><div class=bg-black><nav class="pv3 ph3 ph4-ns" role=navigation><div class="flex-l justify-between items-center center"><a href=/ class="f3 fw2 hover-white no-underline white-90 dib">Yangyu's Notes</a><div class="flex-l items-center"><div class=ananke-socials></div></div></div></nav></div></header><main class=pb7 role=main><article class="flex-l flex-wrap justify-between mw8 center ph3"><header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked">POSTS</aside><div id=sharing class="mt3 ananke-socials"></div><h1 class="f1 athelas mt3 mb1">JS Tricks from JS-puzzlers</h1><p class=tracked>By <strong>Yangyu</strong></p><time class="f6 mv4 dib tracked" datetime=2014-02-23T00:00:00+08:00>February 23, 2014</time>
+<span class="f6 mv4 dib tracked">- 10 minutes read</span>
+<span class="f6 mv4 dib tracked">- 1959 words</span></header><div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><a href=http://javascript-puzzlers.herokuapp.com/>Javascript-Puzzlers</a> is a nice place for people to.. test their JS knowledge :)</p><p>I wrote some code to learn&verify JS&rsquo;s behaviour while solving the problems. I&rsquo;ll try to put the result below.</p><p>Meanwhile, I&rsquo;ve also put the JS source code <a href=/project/languageLearn/js-puzzler.js>here</a>.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Question #1: [&#34;1&#34;, &#34;2&#34;, &#34;3&#34;].map(parseInt) 
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Verify as below
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> [<span style=color:#e6db74>&#39;1&#39;</span>,<span style=color:#e6db74>&#39;2&#39;</span>,<span style=color:#e6db74>&#39;3&#39;</span>];
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// This would show the input that `map` feeds to the callback
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>a</span>.<span style=color:#a6e22e>map</span>(<span style=color:#66d9ef>function</span>(){<span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arguments</span>);});
+</span></span><span style=display:flex><span><span style=color:#75715e>// output of one of the lines: { &#39;0&#39;: &#39;1&#39;, &#39;1&#39;: 0, &#39;2&#39;: [ &#39;1&#39;, &#39;2&#39;, &#39;3&#39; ] }
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>( parseInt(<span style=color:#e6db74>&#39;1&#39;</span>,<span style=color:#ae81ff>0</span>));  <span style=color:#75715e>// output: 1
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>( parseInt(<span style=color:#e6db74>&#39;2&#39;</span>,<span style=color:#ae81ff>1</span>));  <span style=color:#75715e>// output: NaN
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Question #2: [typeof null, null instanceof Object]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>//    output: [&#34;object&#34;, false]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// It&#39;s explained pretty well in the answer part
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Question #3: [ [3,2,1].reduce(Math.pow), [].reduce(Math.pow) ]
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>1</span>];
+</span></span><span style=display:flex><span><span style=color:#a6e22e>a</span>.<span style=color:#a6e22e>reduce</span>(<span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>n</span>){<span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arguments</span>);<span style=color:#66d9ef>return</span> <span style=color:#a6e22e>n</span>;});
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(Math.<span style=color:#a6e22e>pow</span>(<span style=color:#ae81ff>3</span>,<span style=color:#ae81ff>2</span>)); <span style=color:#75715e>// output: 9
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// [].reduce(function(n){console.log(arguments);return n;}); 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>//  would result in TypeError
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #4:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  var val = &#39;smtg&#39;;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  console.log(&#39;Value is &#39; + (val === &#39;smtg&#39;) ? &#39;Something&#39; : &#39;Nothing&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>val</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;smtg&#39;</span>;
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#39;Value is &#39;</span> <span style=color:#f92672>+</span> (<span style=color:#a6e22e>val</span> <span style=color:#f92672>===</span> <span style=color:#e6db74>&#39;smtg&#39;</span>) <span style=color:#f92672>?</span> <span style=color:#e6db74>&#39;Something&#39;</span> <span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Nothing&#39;</span>);
+</span></span><span style=display:flex><span><span style=color:#75715e>// + operator has higher precedence than ternary
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// Moral of story: always wrap in brackets when you&#39;re not sure about the precedence.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #5:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    var name = &#39;World!&#39;;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    (function () {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        if (typeof name === &#39;undefined&#39;) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>            var name = &#39;Jack&#39;;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>            console.log(&#39;Goodbye &#39; + name);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        } else {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>            console.log(&#39;Hello &#39; + name);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    })();
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  NOTE: this is a very interesting trick!
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>str</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;songyy&#39;</span>;
+</span></span><span style=display:flex><span>(<span style=color:#66d9ef>function</span>(){
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span>(<span style=color:#66d9ef>typeof</span> <span style=color:#a6e22e>str</span> <span style=color:#f92672>===</span> <span style=color:#e6db74>&#39;undefined&#39;</span>){
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>var</span> <span style=color:#a6e22e>str</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;abc&#39;</span>;
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>str</span>); <span style=color:#75715e>// This is executed
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e>// Because the `var str` declaration is visible to the function, but the corresponding initialization is not
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  }
+</span></span><span style=display:flex><span>})();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>(<span style=color:#66d9ef>function</span>(){
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>if</span>(<span style=color:#66d9ef>typeof</span> <span style=color:#a6e22e>str</span> <span style=color:#f92672>===</span> <span style=color:#e6db74>&#39;undefined&#39;</span>){
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>str</span>); <span style=color:#75715e>// This is not executed
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e>// Because when there&#39;s no locally defined `str`, it&#39;s then referred to the gloabl one, which is... defined.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  }
+</span></span><span style=display:flex><span>})();
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #6:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var END = Math.pow(2, 53);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var START = END - 100;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var count = 0;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>for (var i = START; i &lt;= END; i++) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    count++;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>console.log(count);
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>END</span> <span style=color:#f92672>=</span> Math.<span style=color:#a6e22e>pow</span>(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>53</span>);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>START</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>END</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>100</span>;
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;(START,END,END+1) = &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>START</span> <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;, &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>END</span> <span style=color:#f92672>+</span> <span style=color:#e6db74>&#34;,&#34;</span> <span style=color:#f92672>+</span> (<span style=color:#a6e22e>END</span><span style=color:#f92672>+</span><span style=color:#ae81ff>1</span>));
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#39;END == (END+1) is &#39;</span> <span style=color:#f92672>+</span> (<span style=color:#a6e22e>END</span> <span style=color:#f92672>==</span> (<span style=color:#a6e22e>END</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>))); <span style=color:#75715e>// TRUE, interestingly
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #7:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var ary = [0,1,2];
+</span></span></span><span style=display:flex><span><span style=color:#75715e>ary[10] = 10;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>ary.filter(function(x) { return x === undefined;}); 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains it well:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  Array.prototype.filter is not invoked for the missing elements.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #8:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var two   = 0.2
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var one   = 0.1
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var eight = 0.8
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var six   = 0.6
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[two - one == one, eight - six == two]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Floating Point equality check will most-of-time give you unexpeced result
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;0.8 - 0.2 = &#34;</span> <span style=color:#f92672>+</span> (<span style=color:#ae81ff>0.8</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>0.2</span>));
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #9:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function showCase(value) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    switch(value) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case &#39;A&#39;:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Case A&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case &#39;B&#39;:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Case B&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case undefined:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;undefined&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    default:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Do not know!&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>showCase(new String(&#39;A&#39;));
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// Answer explains well: switch uses === internally and new String(x) !== x
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #10:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function showCase2(value) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    switch(value) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case &#39;A&#39;:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Case A&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case &#39;B&#39;:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Case B&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    case undefined:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;undefined&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        break;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    default:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>        console.log(&#39;Do not know!&#39;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>showCase2(String(&#39;A&#39;));
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// Because unique string would have a unique instance in memory
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #11:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function isOdd(num) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    return num % 2 == 1;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function isEven(num) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    return num % 2 == 0;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function isSane(num) {
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    return isEven(num) || isOdd(num);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var values = [7, 4, &#39;13&#39;, -9, Infinity];
+</span></span></span><span style=display:flex><span><span style=color:#75715e>values.map(isSane)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains very well: -9 % 2 gives -1 (modulo operator keeps sign so it&#39;s result is only reliable compared to 0)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>And the same goes in C! (and probably other languages)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Moral of story: always check for (a%2==0) rather than with (==1)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>or easier way of checking: (a&amp;1 == 1) to check if it&#39;s odd
+</span></span></span><span style=display:flex><span><span style=color:#75715e>*/</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>isOdd</span>(<span style=color:#a6e22e>num</span>) { <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>num</span> <span style=color:#f92672>%</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>1</span>; }
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>isEven</span>(<span style=color:#a6e22e>num</span>) { <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>num</span> <span style=color:#f92672>%</span> <span style=color:#ae81ff>2</span> <span style=color:#f92672>==</span> <span style=color:#ae81ff>0</span>; }
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>([<span style=color:#a6e22e>isOdd</span>(<span style=color:#66d9ef>Infinity</span>),<span style=color:#a6e22e>isEven</span>(<span style=color:#66d9ef>Infinity</span>)]);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;13&#39;</span>; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>([<span style=color:#a6e22e>isOdd</span>(<span style=color:#a6e22e>a</span>),<span style=color:#a6e22e>isEven</span>(<span style=color:#a6e22e>a</span>)]);
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>9</span>; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>([<span style=color:#a6e22e>isOdd</span>(<span style=color:#a6e22e>a</span>),<span style=color:#a6e22e>isEven</span>(<span style=color:#a6e22e>a</span>)]);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #12:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>parseInt(3, 8)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>parseInt(3, 2)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>parseInt(3, 0)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains well, and this is verified in the first question.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: 3 doesn&#39;t exist in base 2, so obviously that&#39;s a NaN, but what about 0? parseInt will consider a bogus radix and assume you meant 10, so it returns 3.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #13: Array.isArray( Array.prototype ) 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  Interestingly.. Array&#39;s prototype is an empty array.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>*/</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #14:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = [0];
+</span></span></span><span style=display:flex><span><span style=color:#75715e>if ([0]) { 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  console.log(a == true);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>} else { 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  console.log(&#34;wut&#34;);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains well: [0] as a boolean is considered true. Alas, when using it in the comparisons it gets converted in a different way and all goes to hell.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #15: [] == []
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;([ [] == [], [] === [] ]) = &#34;</span> <span style=color:#f92672>+</span> [ [] <span style=color:#f92672>==</span> [], [] <span style=color:#f92672>===</span> [] ]);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #16:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>&#39;5&#39; + 3  
+</span></span></span><span style=display:flex><span><span style=color:#75715e>&#39;5&#39; - 3 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains well: Strings know about + and will use it, but they are ignorant of - so in that case the strings get converted to numbers.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #17: 1 + - + + + - + 1 
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#ae81ff>1</span> <span style=color:#f92672>+</span> <span style=color:#f92672>-</span> <span style=color:#f92672>+</span> <span style=color:#f92672>+</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>);
+</span></span><span style=display:flex><span><span style=color:#75715e>// No mater how many + in front of a number, its sign is decided by the # of -
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #18:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var ary = Array(3);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>ary[0]=2
+</span></span></span><span style=display:flex><span><span style=color:#75715e>ary.map(function(elem) { return &#39;1&#39;; }); 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explans well: The result is [&#34;1&#34;, undefined × 2], as map is only invoked for elements of the Array which have been initialized
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #19:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function sidEffecting(ary) { ary[0] = ary[2]; }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function bar(a,b,c) { 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  c = 10
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  sidEffecting(arguments);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  return a + b + c;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>bar(1,1,1)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains well: The result is 21, in javascript variables are tied to the arguments object so changing the variables changes arguments and changing arguments changes the local variables even when they are not in the same scope.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>bar</span>(<span style=color:#a6e22e>a</span>,<span style=color:#a6e22e>b</span>,<span style=color:#a6e22e>c</span>) { <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arguments</span>); }
+</span></span><span style=display:flex><span><span style=color:#a6e22e>bar</span>(<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>1</span>); <span style=color:#75715e>// as we can see, arg c has been modified.
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #20:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = 111111111111111110000,
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    b = 1111;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Err... Intrestingly, console.log(111111111111111111111) would give you
+</span></span></span><span style=display:flex><span><span style=color:#75715e>111111111111111110000 instead. A Few others:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>log(211111111111111111121) -&gt; 211111111111111100000
+</span></span></span><span style=display:flex><span><span style=color:#75715e>log(989999999999999999999) -&gt; 990000000000000000000
+</span></span></span><span style=display:flex><span><span style=color:#75715e>log(999999999999999999999) -&gt; 1e+21
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #21: var x = [].reverse; x();
+</span></span></span><span style=display:flex><span><span style=color:#75715e>This is a very interesting question.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var x = [].reverse; x(); -&gt; returns window object
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[].reverse(); -&gt; returns []
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer explains it well: [].reverse will return this and when invoked without an explicit receiver object it will default to the default this AKA window
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>But do note that:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    function Bar(){
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      var x = [].reverse;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>      console.log(x());
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    new Bar();
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>would raise an error
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>I asked a question on StackOverFlow here: http://stackoverflow.com/questions/21978707/calling-array-prototype-reverse-on-empty-array
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>And it was explained pretty clear over there.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #22:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  Number.MIN_VALUE &gt; 0
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Err.. Test on the understand of `MIN_VALUE` object. Answer Explains:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>&gt; Number.MIN_VALUE is the smallest value bigger than zero, -Number.MAX_VALUE gets you a reference to something like the most negative number.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #23: [1 &lt; 2 &lt; 3, 3 &lt; 2 &lt; 1]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: true, true. Simply note that &#39;&lt;&#39; is left associative
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #24: 2 == [[[2]]]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>As it says.. WTF... answer explains: both objects get converted to strings and in both cases the resulting string is &#34;2&#34;
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #25:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>3.toString()
+</span></span></span><span style=display:flex><span><span style=color:#75715e>3..toString()
+</span></span></span><span style=display:flex><span><span style=color:#75715e>3...toString()
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Interestingly, result is: error, &#34;3&#34;, error. Answer explains it well:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>&gt; 3.x is a valid syntax to define &#34;3&#34; with a mantissa of x, toString is not a valid number, but the empty string is.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #26:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>(function(){
+</span></span></span><span style=display:flex><span><span style=color:#75715e>  var x = y = 1;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>})();
+</span></span></span><span style=display:flex><span><span style=color:#75715e>console.log(y);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>console.log(x);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Easy one: y is an automatic global, not a function local one.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #27:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = /123/,
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    b = /123/;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a == b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a === b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Interestingly, regex are never equal to each other.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #28:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = [1, 2, 3],
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    b = [1, 2, 3],
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    c = [1, 2, 4]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a ==  b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a === b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a &gt;   c
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a &lt;   c
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;[1,3] &lt; [1,4] is: &#34;</span> <span style=color:#f92672>+</span> ( [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>3</span>] <span style=color:#f92672>&lt;</span> [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>4</span>]) );  <span style=color:#75715e>// -&gt; Output: true
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>([ [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>3</span>] <span style=color:#f92672>==</span> [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>4</span>], [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>3</span>] <span style=color:#f92672>===</span> [<span style=color:#ae81ff>1</span>,<span style=color:#ae81ff>4</span>] ]);  <span style=color:#75715e>// -&gt; Output: [false, false]
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #29:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = {}, b = Object.prototype;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[a.prototype === b, Object.getPrototypeOf(a) === b]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer Explains: Functions have a prototype property but other objects don&#39;t so a.prototype is undefined. 
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Every Object instead has an internal property accessible via Object.getPrototypeOf
+</span></span></span><span style=display:flex><span><span style=color:#75715e>*/</span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Additionally, note that: 
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> {}, <span style=color:#a6e22e>b</span> <span style=color:#f92672>=</span> {};
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;[a == b, a === b] is: &#34;</span>,[<span style=color:#a6e22e>a</span> <span style=color:#f92672>==</span> <span style=color:#a6e22e>b</span>, <span style=color:#a6e22e>a</span> <span style=color:#f92672>===</span> <span style=color:#a6e22e>b</span>]);  <span style=color:#75715e>// [false, false]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>// and `{} == {}` is invalid
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #30:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function f() {}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = f.prototype, b = Object.getPrototypeOf(f);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a === b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer States: f.prototype is the object that will become the parent of any objects created with new f while Object.getPrototypeOf returns the parent in the inheritance hierarchy.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>This is very easy for one to go wrong 
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #31:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function foo() { }
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var oldName = foo.name;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>foo.name = &#34;bar&#34;;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[oldName, foo.name]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer States: name is a read only property. But it doesn&#39;t throw an error when assigned.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #32:    &#34;1 2 3&#34;.replace(/\d/g, parseInt)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: &#34;1 NaN 3&#34;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>See the args printed below for the values passed
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;args of replace:&#34;</span>);
+</span></span><span style=display:flex><span><span style=color:#e6db74>&#34;1 2 3&#34;</span>.<span style=color:#a6e22e>replace</span>(<span style=color:#e6db74>/\d/g</span>, <span style=color:#66d9ef>function</span>(){<span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>arguments</span>);});
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #33:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>function f() {}
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var parent = Object.getPrototypeOf(f);
+</span></span></span><span style=display:flex><span><span style=color:#75715e>f.name // ? -&gt; f
+</span></span></span><span style=display:flex><span><span style=color:#75715e>parent.name // ?  -&gt; Object
+</span></span></span><span style=display:flex><span><span style=color:#75715e>typeof eval(f.name) // ?  -&gt; Error
+</span></span></span><span style=display:flex><span><span style=color:#75715e>typeof eval(parent.name) //  ?  -&gt; Function
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: &#34;f&#34;, &#34;Empty&#34;, &#34;function&#34;, error
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Note that, Object.getPrototypeOf(f) gives you empty object, whose name is &#39;empty&#39;; Calling Empty gives you error.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #34:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var lowerCaseOnly =  /^[a-z]+$/;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[lowerCaseOnly.test(null), lowerCaseOnly.test()]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>After seeing the answer.. I wanna say: WTF!!!
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: [true,true].
+</span></span></span><span style=display:flex><span><span style=color:#75715e>As answer explains: the argument is converted to a string with the abstract ToString operation, so it is &#34;null&#34; and &#34;undefined&#34;.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #35: [,,,].join(&#34;, &#34;)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: &#34;, , &#34;
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Firstly, [,,,] is [undefined * 3]; secondly, joining of `undefined` would translate `undefined` into empty string.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #36:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = {class: &#34;Animal&#34;, name: &#39;Fido&#39;}; a.class
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: The answer is: it depends on the browser. class is a reserved word, but it is accepted as a property name by Chrome, Firefox and Opera. It will fail in IE. On the other hand, everybody will accept most other reserved words (int, private, throws etc) as variable names too, while class is verboten.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>In NodeJS, it&#39;s the same as chrome.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span><span style=color:#66d9ef>var</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> {<span style=color:#66d9ef>class</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#34;Animal&#34;</span>, <span style=color:#a6e22e>name</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Fido&#39;</span>}; <span style=color:#a6e22e>a</span>.<span style=color:#66d9ef>class</span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#e6db74>&#34;a.class = &#34;</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>a</span>.<span style=color:#66d9ef>class</span>);
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #37:  var a = new Date(&#34;epoch&#34;)
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: Invalid Date.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Given answer explains pretty well: You get &#34;Invalid Date&#34;, which is an actual Date object (a instanceof Date is true). But invalid. This is because the time is internally kept as a Number, which in this case it&#39;s NaN
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #38:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = Function.length,
+</span></span></span><span style=display:flex><span><span style=color:#75715e>    b = new Function().length
+</span></span></span><span style=display:flex><span><span style=color:#75715e>a === b
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Answer: false
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Because Function.length returns the # of args expected to this funciton.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Function() by default take 1 arg; annoymus function take 0 arg in stead.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #39:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var a = Date(0); var b = new Date(0); var c = new Date();
+</span></span></span><span style=display:flex><span><span style=color:#75715e>[a === b, b === c, a === c]
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>answer: all false.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Reason: Date(0) returns the Date as a string, new Date(0) return the Date object, with TimeStamp set to 0; new Date() set to current time
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Question #40:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>var min = Math.min(), max = Math.max()
+</span></span></span><span style=display:flex><span><span style=color:#75715e>min &lt; max
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>Interestingly, Math.min returns +Infinity when supplied an empty argument list. Likewise, Math.max returns -Infinity.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>So the answer is false.
+</span></span></span><span style=display:flex><span><span style=color:#75715e>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>I believe this is related to the implementation of the min/max func.
+</span></span></span><span style=display:flex><span><span style=color:#75715e> */</span>
+</span></span></code></pre></div><ul class=pa0></ul><div class="mt6 instapaper_ignoref"></div></div><aside class="w-30-l mt6-l"></aside></article></main><footer class="bg-black bottom-0 w-100 pa3" role=contentinfo><div class="flex justify-between"><a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href=https://songyangyu.com/>&copy; Yangyu's Notes 2022</a><div><div class=ananke-socials></div></div></div></footer></body></html>
