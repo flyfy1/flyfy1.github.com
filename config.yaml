@@ -1,0 +1,7 @@
+baseURL: 'https://songyangyu.com/'
+languageCode: 'en-us'
+title: "Yangyu's Notes"
+theme: "ananke"
+
+permalinks:
+  posts: "/:title"
