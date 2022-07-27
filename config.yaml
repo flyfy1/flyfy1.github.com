@@ -20,9 +20,9 @@ languages:
     contentDir: "content/cn"
 
 googleAnalytics: G-57BKLXW3P2
+disqusShortname: songyangyu
 
 # defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 params:
   author: Yangyu
-  disqusShortname: songyangyu
   #  show_reading_time: true
