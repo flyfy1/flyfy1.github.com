@@ -3,6 +3,7 @@ title: "未来的样子 - 关于技能"
 date: 2016-10-02T00:00:00+08:00
 lang: cn
 url: posts/on-future-skill
+isCJKLanguage: true
 ---
 
 ## 思考未来趋势的意义

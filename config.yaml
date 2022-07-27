@@ -15,14 +15,27 @@ languages:
     title: "Yangyu's Notes"
     contentDir: "content/en"
     weight: 1
+    lang: en-us
+
+    menu:
+      main:
+        - identifier: about
+          name: About
+          pre: <i class='fa fa-heart'></i>
+          url: /about/
+          weight: 110
+
   "中文":
     title: "洋宇的笔记"
     contentDir: "content/cn"
+    lang: zh_Hans
 
 googleAnalytics: G-57BKLXW3P2
 disqusShortname: songyangyu
 
+sectionPagesMenu: main
+
 # defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 params:
   author: Yangyu
-  #  show_reading_time: true
+  show_reading_time: true
