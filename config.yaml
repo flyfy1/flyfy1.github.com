@@ -10,16 +10,19 @@ permalinks:
   posts: "/posts/:title"
 
 
-# defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 languages:
   en:
     title: "Yangyu's Notes"
     contentDir: "content/en"
     weight: 1
-  cn:
+  "中文":
     title: "洋宇的笔记"
     contentDir: "content/cn"
+
 googleAnalytics: G-57BKLXW3P2
+
+# defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 params:
   author: Yangyu
-  show_reading_time: true
+  disqusShortname: songyangyu
+  #  show_reading_time: true
