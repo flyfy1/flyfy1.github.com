@@ -39,3 +39,10 @@ sectionPagesMenu: main
 params:
   author: Yangyu
   show_reading_time: true
+  ananke_socials:
+  - name: twitter
+    url: https://twitter.com/songyangyu
+  - name: github
+    url: https://github.com/flyfy1
+  - name: linkedin
+    url: https://www.linkedin.com/in/yangyu-song-25895120/
