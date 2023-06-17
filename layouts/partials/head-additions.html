@@ -1,0 +1,5 @@
+{{/* for adsense */}}
+{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4310544384247370"
+     crossorigin="anonymous"></script>
+{{ end }}
