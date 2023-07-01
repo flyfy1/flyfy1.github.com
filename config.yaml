@@ -46,3 +46,5 @@ params:
     url: https://github.com/flyfy1
   - name: linkedin
     url: https://www.linkedin.com/in/yangyu-song-25895120/
+  
+  recent_posts_number: 10
