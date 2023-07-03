@@ -7,15 +7,17 @@ Paginate: 20
 
 permalinks:
   # TODO: translate .html suffix to the ones without it
-  posts: "/posts/:title"
+  posts: "/posts/:slug"
 
-
+# it's default to `en` anyway
+defaultContentLanguage: en
 languages:
   en:
+    languageName: "English"
+    # name: "English"
     title: "Yangyu's Notes"
-    contentDir: "content/en"
+    contentDir: "content/english"
     weight: 1
-    lang: en-us
 
     menu:
       main:
@@ -25,10 +27,16 @@ languages:
           url: /about/
           weight: 110
 
-  "中文":
+  zh:
     title: "洋宇的笔记"
-    contentDir: "content/cn"
-    lang: zh_Hans
+    weight: 2
+    contentDir: "content/chinese"
+    languageName: "中文"
+
+    params:
+      mainSections:
+      - posts
+      - book-reviews
 
 googleAnalytics: G-57BKLXW3P2
 disqusShortname: songyangyu
@@ -48,3 +56,4 @@ params:
     url: https://www.linkedin.com/in/yangyu-song-25895120/
   
   recent_posts_number: 10
+  date_format: "2006-01-02"
