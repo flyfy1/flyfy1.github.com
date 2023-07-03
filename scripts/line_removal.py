@@ -1,3 +1,7 @@
+# Example Usage
+# - Remove lines with `lang: en` in posts: 
+#       python scripts/line_removal.py './content/english/posts' 'lang: en'
+
 import os
 import sys
 
@@ -14,6 +18,7 @@ def remove_line_with_content(directory, content):
                         file.write(line)
 
     print("Lines with the content '{}' have been removed.".format(content))
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
