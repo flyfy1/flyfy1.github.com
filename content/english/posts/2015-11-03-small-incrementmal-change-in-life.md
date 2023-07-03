@@ -2,7 +2,6 @@
 title: "Small, Incrementmal Change, in Life"
 description: "Life is long"
 date: 2015-11-03T00:00:00+08:00
-lang: en
 ---
 
 Life is a long process. People changes throughout their own life, and people

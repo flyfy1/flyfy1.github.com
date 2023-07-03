@@ -1,7 +1,6 @@
 ---
 title: "on Objective, and Focus"
 date: 2016-08-21T00:00:00+08:00
-lang: en
 ---
 
 > One should always reflect upon himself... to keep on the right track, to find

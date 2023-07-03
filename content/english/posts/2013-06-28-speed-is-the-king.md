@@ -1,7 +1,6 @@
 ---
 title: "Speed is the king"
 date: 2013-06-28T00:00:00+08:00
-lang: en
 ---
 
 I've been always believing that.. Idea is cheap, because implementation is hard.

@@ -1,7 +1,6 @@
 ---
 title: "The Strong Weak Person"
 date: 2016-03-25T00:00:00+08:00
-lang: en
 ---
 
 > Some people are alive.. but they are already dead. Some people has died, but

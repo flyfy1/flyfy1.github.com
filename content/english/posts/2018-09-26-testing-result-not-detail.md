@@ -1,7 +1,6 @@
 ---
 title: "Testing Result not Detail"
 date: 2018-09-26T00:00:00+08:00
-lang: en
 ---
 
 When writing specs, I think the spec should describe implementation result, but 

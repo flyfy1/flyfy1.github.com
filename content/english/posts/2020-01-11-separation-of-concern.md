@@ -1,7 +1,6 @@
 ---
 title: "Separation of Concern"
 date: 2020-01-11T00:00:00+08:00
-lang: en
 ---
 
 ## Situation

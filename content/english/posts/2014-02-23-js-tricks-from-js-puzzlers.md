@@ -2,7 +2,6 @@
 title: "JS Tricks from JS-puzzlers"
 description: "A few JS's wired behaviour. Or you can treat this as an answer to javascript-puzzlers"
 date: 2014-02-23T00:00:00+08:00
-lang: en
 ---
 
 [Javascript-Puzzlers](http://javascript-puzzlers.herokuapp.com/) is a nice place for people to.. test their JS knowledge :)

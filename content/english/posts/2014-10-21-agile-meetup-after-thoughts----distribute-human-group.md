@@ -2,7 +2,6 @@
 title: "Agile Meetup After Thoughts -- Distribute Human Group"
 description: "Just a small write-up after the agile meetup, extracted from my diary"
 date: 2014-10-21T00:00:00+08:00
-lang: en
 ---
 
 I went to the agile meetup today. I like how the agile meetup runs:

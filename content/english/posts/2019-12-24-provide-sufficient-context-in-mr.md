@@ -1,7 +1,6 @@
 ---
 title: "Provide Sufficient Context in the Merge Request"
 date: 2019-12-24T00:00:00+08:00
-lang: en
 ---
 
 # TL;DR

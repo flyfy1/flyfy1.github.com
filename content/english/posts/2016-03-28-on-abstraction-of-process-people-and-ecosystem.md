@@ -1,7 +1,6 @@
 ---
 title: "On Abstraction of Process, People, and Ecosystem"
 date: 2016-03-28T00:00:00+08:00
-lang: en
 ---
 
 Abstraction is a pretty interesting topic. It's needed cuz huamn mind cannot

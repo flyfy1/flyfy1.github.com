@@ -2,7 +2,6 @@
 title: "MeaningFul and MeaningLess"
 description: "MeaningFul things might not be the one you want to do as much as the MeaningLess ones"
 date: 2013-12-21T00:00:00+08:00
-lang: en
 ---
 
 There is an interesting effect: people tends to do, or even addicted

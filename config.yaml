@@ -42,6 +42,8 @@ googleAnalytics: G-57BKLXW3P2
 disqusShortname: songyangyu
 
 sectionPagesMenu: main
+ignorefiles:
+- scripts/.*
 
 # defined by ananke. Ref: https://github.com/theNewDynamic/gohugo-theme-ananke
 params:

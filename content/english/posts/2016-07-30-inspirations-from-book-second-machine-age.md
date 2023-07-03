@@ -1,7 +1,6 @@
 ---
 title: 'Inspirations From Book "Second Machine Age"'
 date: 2016-07-30T00:00:00+08:00
-lang: en
 ---
 
 I was reading about the book <Second Machine Age>. It was.. so interesting that

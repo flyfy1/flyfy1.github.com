@@ -1,7 +1,6 @@
 ---
 title: "Transform Any Website into Desktop App via Electron"
 date: 2022-06-12T00:00:00+08:00
-lang: en
 ---
 
 # End Result

@@ -1,7 +1,6 @@
 ---
 title: "HHKB -- My Review"
 date: 2015-07-05T00:00:00+08:00
-lang: en
 ---
 
 I've bought a keyboard recently, HHKB. Here's one from [amazon](http://www.amazon.com/Happy-Hacking-Keyboard-Professional2-Black/dp/B000EXZ0VC)

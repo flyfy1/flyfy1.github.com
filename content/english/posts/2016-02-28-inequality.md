@@ -2,7 +2,6 @@
 title: "Inequality"
 description: "About inequality in different areas: job, industry, code, human."
 date: 2016-02-28T00:00:00+08:00
-lang: en
 ---
 
 # InEquality

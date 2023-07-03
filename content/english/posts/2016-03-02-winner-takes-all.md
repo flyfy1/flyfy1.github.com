@@ -2,7 +2,6 @@
 title: "Winner Takes All"
 description: 'due to the nature of internet, competition is a winner-take-all game'
 date: 2016-03-02T00:00:00+08:00
-lang: en
 ---
 
 This is a continue, from the last post [InEquality](/thoughts/2016/02/28/inequality.html).

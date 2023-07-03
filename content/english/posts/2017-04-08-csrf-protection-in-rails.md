@@ -1,7 +1,6 @@
 ---
 title: "CSRF protection in Rails"
 date: 2017-04-08T00:00:00+08:00
-lang: en
 ---
 
 [CSRF(Cross Site Request Forgery) is an attack that forces an end user to
