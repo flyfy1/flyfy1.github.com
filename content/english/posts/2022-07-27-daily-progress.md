@@ -1,8 +1,6 @@
 ---
-title: "2022-07-27 - Daily Progress"
+title: "Daily Progress"
 date: 2022-07-27T23:42:01+08:00
-hidden: true
-lang: en
 ---
 
 In the recent 2 days, I've spent some good time setting up this blog site... here's the rough timeline:
