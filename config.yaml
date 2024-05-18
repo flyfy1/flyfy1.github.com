@@ -38,8 +38,11 @@ languages:
       - posts
       - book-reviews
 
-googleAnalytics: G-57BKLXW3P2
-disqusShortname: songyangyu
+services:
+  googleAnalytics:
+    ID: G-57BKLXW3P2
+  disqus:
+    shortname: songyangyu
 
 sectionPagesMenu: main
 ignorefiles:

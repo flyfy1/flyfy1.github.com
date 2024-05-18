@@ -3,9 +3,9 @@ title: "CSRF protection in Rails"
 date: 2017-04-08T00:00:00+08:00
 ---
 
-[CSRF(Cross Site Request Forgery) is an attack that forces an end user to
+CSRF(Cross Site Request Forgery) is an attack that forces an end user to
 execute unwanted actions on a web application in which he/she is currently
-authenticated.]("https://www.owasp.org/index.php/Testing_for_CSRF_(OTG-SESS-005)")
+authenticated.
 
 In this post, I'll explore, in the source code level, how Rails protect itself
 from CSRF. It has two checks: based on token, and also the `origin` header.
