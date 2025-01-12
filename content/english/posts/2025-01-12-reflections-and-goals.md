@@ -17,7 +17,7 @@ As it turned out, I left ByteDance after exactly one year, on August 1. I was in
 
 I believe my main issues at ByteDance were also areas where I experienced growth (and for that, I’m grateful for the experience):
 
-- When encountering problems or blockers, I was easily dismissed by others. I was putting too much hope on what I can achieve, instead of what others can offer. As a result, issues that weren’t originally mine became my responsibility whne things got worse
+- When encountering problems or blockers, I was easily dismissed by others. I was putting too much hope on what I can achieve, instead of what others can offer. As a result, issues that weren’t originally mine became my responsibility when things got worse
 - I was in a passive position regarding projects, unclear about how to take ownership of scopes proactively. In an environment with limited opportunities and many challenges, this was a disadvantage.
 - In a complex organizational structure, I couldn’t identify the key point of contact to resolve issues, leading to a lot of wasted effort.
 
