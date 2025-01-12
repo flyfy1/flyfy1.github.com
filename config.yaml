@@ -3,7 +3,8 @@ languageCode: 'en-us'
 title: "Yangyu's Notes"
 theme: "ananke"
 
-Paginate: 20
+pagination:
+  pagerSize: 20
 
 permalinks:
   # TODO: translate .html suffix to the ones without it
