@@ -25,9 +25,11 @@ git submodule update
 # to release branch -- therefore triggers the release github action
 git push origin main:release
 
+# to run it locally
+hugo server
+
 # to create new content
 hugo new content/english/keeping-a-work-note-1.md -k posts
 
 # to add static content, add them into `/static` folder
-
 ```
