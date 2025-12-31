@@ -54,6 +54,8 @@ ignorefiles:
 params:
   author: Yangyu
   show_reading_time: true
+  social:
+    twitter: songyangyu
   ananke_socials:
   - name: twitter
     url: https://twitter.com/songyangyu
