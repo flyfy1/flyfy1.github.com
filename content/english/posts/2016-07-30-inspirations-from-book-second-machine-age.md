@@ -6,10 +6,6 @@ date: 2016-07-30T00:00:00+08:00
 I was reading about the book <Second Machine Age>. It was.. so interesting that
 I actually prepared for a set of slides, plus, made a talk about this.
 
-Here's the picture after the talk:
-
-![Book Club After](/life/2016-07-30-book-club.jpg)
-
 I prepared like.. 40 slides; and here're some of my short insiprations.
 
 Steamer Machine is the first machine age.. because the level of development of

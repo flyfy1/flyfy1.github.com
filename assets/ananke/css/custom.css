@@ -1,0 +1,514 @@
+/* Custom overrides on top of ananke — cool/modern editorial look. */
+
+/* ── Fonts (loaded via head-additions.html) ────────────────────────── */
+
+:root {
+  --c-bg: #ffffff;
+  --c-surface: #ffffff;
+  --c-text: #0a0a0a;
+  --c-text-soft: #27272a;
+  --c-muted: #71717a;
+  --c-link: #0e7490;
+  --c-link-hover: #155e75;
+  --c-border: #e4e4e7;
+  --c-border-strong: #d4d4d8;
+  --c-code-bg: #f4f4f5;
+  --c-code-inline-bg: #f4f4f5;
+  --c-accent-tint: rgba(14, 116, 144, 0.08);
+
+  --shadow-sm: 0 1px 2px rgba(10, 10, 10, 0.04);
+  --shadow-md: 0 4px 16px rgba(10, 10, 10, 0.06);
+
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+    Arial, sans-serif;
+  --font-serif: "IBM Plex Serif", "Charter", "Iowan Old Style", Georgia,
+    "Songti SC", "Noto Serif CJK SC", "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas,
+    monospace;
+
+  --measure: 68ch;
+}
+
+/* ── Dark theme overrides (applied when <html data-theme="dark">) ─── */
+
+html[data-theme="dark"] {
+  --c-bg: #0a0a0a;
+  --c-surface: #161616;
+  --c-text: #f4f4f5;
+  --c-text-soft: #e4e4e7;
+  --c-muted: #a1a1aa;
+  --c-link: #22d3ee;
+  --c-link-hover: #67e8f9;
+  --c-border: #27272a;
+  --c-border-strong: #3f3f46;
+  --c-code-bg: #161616;
+  --c-code-inline-bg: #1f1f23;
+  --c-accent-tint: rgba(34, 211, 238, 0.10);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Smooth color transitions when toggling. */
+html, body, header, footer, section, article, nav, a, code, pre,
+.bg-near-white, .bg-white, .bg-light-gray, .bg-black {
+  transition: background-color 0.2s ease, color 0.2s ease,
+              border-color 0.2s ease;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────── */
+
+body.bg-near-white,
+body { background-color: var(--c-bg) !important; }
+
+/* Tachyons table-bg / generic surface classes in dark. */
+html[data-theme="dark"] body.bg-near-white,
+html[data-theme="dark"] body { background-color: var(--c-bg) !important; }
+html[data-theme="dark"] .bg-white { background-color: var(--c-surface) !important; }
+html[data-theme="dark"] .bg-light-gray { background-color: var(--c-surface) !important; }
+
+body {
+  font-family: var(--font-serif);
+  color: var(--c-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* ── Headings ──────────────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6,
+.f1, .f2, .f3, .f4, .f5, .f-headline, .f-subheadline {
+  font-family: var(--font-sans);
+  color: var(--c-text);
+  letter-spacing: -0.018em;
+  line-height: 1.22;
+  font-weight: 650;
+}
+
+h1, .f1 { font-weight: 700; letter-spacing: -0.025em; }
+h2, .f2 { font-weight: 650; letter-spacing: -0.02em; }
+h3, .f3 { font-weight: 600; }
+
+/* Article title spacing. */
+article h1 { font-size: 2.1rem; margin: 0 0 0.4em; }
+article h2 { font-size: 1.45rem; margin: 1.8em 0 0.5em; }
+article h3 { font-size: 1.18rem; margin: 1.6em 0 0.4em; }
+
+/* ── Article body ──────────────────────────────────────────────────── */
+
+.nested-copy-line-height,
+article,
+.content,
+.post-content {
+  line-height: 1.72;
+  font-size: 1.05rem;
+  color: var(--c-text-soft);
+}
+
+article p,
+.nested-copy-line-height p { margin: 1.1em 0; }
+
+/* ── Links ─────────────────────────────────────────────────────────── */
+
+a.link, a:link, a:visited {
+  color: var(--c-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(14, 116, 144, 0.35);
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+a.link:hover, a:hover {
+  color: var(--c-link-hover);
+  text-decoration-color: currentColor;
+}
+
+/* Headings inside articles shouldn't get underlined link styling. */
+article h1 a, article h2 a, article h3 a,
+.f3 a, .f2 a, .f1 a {
+  text-decoration: none;
+  color: var(--c-text);
+}
+article h1 a:hover, article h2 a:hover, article h3 a:hover,
+.f3 a:hover, .f2 a:hover, .f1 a:hover { color: var(--c-link); }
+
+/* ── Code ──────────────────────────────────────────────────────────── */
+
+code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  font-feature-settings: "calt", "liga" 0;
+}
+p code, li code, td code, h1 code, h2 code, h3 code {
+  background: var(--c-code-inline-bg);
+  padding: 0.12em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--c-border);
+  color: var(--c-text);
+}
+
+pre, .highlight pre, div.highlight {
+  background: var(--c-code-bg) !important;
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  box-shadow: none;
+}
+pre code { background: transparent; border: none; padding: 0; }
+
+/* ── Blockquote ────────────────────────────────────────────────────── */
+
+blockquote {
+  border-left: 3px solid var(--c-link);
+  background: var(--c-accent-tint);
+  margin: 1.6em 0;
+  padding: 0.7em 1.2em;
+  color: var(--c-text-soft);
+  border-radius: 0 6px 6px 0;
+  font-style: normal;
+}
+blockquote p { margin: 0.4em 0; }
+
+/* ── Tables ────────────────────────────────────────────────────────── */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+}
+th, td {
+  border-bottom: 1px solid var(--c-border);
+  padding: 0.6em 0.9em;
+  text-align: left;
+}
+th {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  background: #fafafa;
+  color: var(--c-text);
+}
+
+hr { border: none; border-top: 1px solid var(--c-border); margin: 2.5em 0; }
+
+article img, .post-content img {
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Site header — editorial single-bar layout ─────────────────────── */
+
+/* Strip the heavy hero black block; make the whole header a clean white bar
+   with a hairline bottom border. */
+header > .bg-black,
+header div.bg-black {
+  background-color: var(--c-bg) !important;
+  border-bottom: 1px solid var(--c-border);
+  padding-bottom: 0 !important;
+}
+header .pb6-l, header .pb3-m { padding-bottom: 0 !important; }
+
+/* The hero <h1> below the nav is a duplicate of the site title already shown
+   in the nav. Hide it everywhere — nav handles branding. */
+header > .bg-black > .tc-l,
+header > div.bg-black > div.tc-l {
+  display: none !important;
+}
+
+/* ── Nav bar: site title (left) + menu (right), tight & confident ── */
+
+header nav {
+  padding-top: 1.1rem !important;
+  padding-bottom: 1.1rem !important;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Site title in nav — this is the real brand mark. */
+header nav > div > a {
+  font-family: var(--font-sans) !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  color: var(--c-text) !important;
+  letter-spacing: -0.022em;
+  text-decoration: none !important;
+  line-height: 1.2;
+}
+header nav > div > a:hover { color: var(--c-link) !important; }
+
+/* Nav menu items: sans, normal case, comfortable spacing. */
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+header nav ul li {
+  font-family: var(--font-sans) !important;
+  font-size: 0.92rem !important;
+  font-weight: 500 !important;
+  padding: 0 !important;
+  list-style: none;
+}
+header nav ul li a {
+  color: var(--c-text-soft) !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  padding: 0.25rem 0;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+header nav ul li a:hover {
+  color: var(--c-link) !important;
+  border-bottom-color: var(--c-link);
+}
+
+/* Override any leftover Tachyons white text in header. */
+header a.white-90, header a.hover-white { color: var(--c-text-soft) !important; }
+
+/* Social icons in header — muted. */
+header .ananke-socials a { color: var(--c-muted) !important; }
+header .ananke-socials a:hover { color: var(--c-link) !important; }
+
+/* Tame uppercase tracked labels if any survive. */
+header .ttu, header .tracked {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-weight: 500;
+}
+
+/* ── Home / list pages: subtle card with hairline border ───────────── */
+
+section.section article.bb {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1rem;
+  box-shadow: none;
+  border-bottom-width: 1px !important;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+section.section article.bb:hover {
+  border-color: var(--c-border-strong);
+  transform: translateY(-1px);
+}
+
+section.section article h1.f3 {
+  font-size: 1.35rem;
+  font-weight: 650;
+  margin: 0 0 0.45em;
+  letter-spacing: -0.015em;
+}
+section.section article h1.f3 a { color: var(--c-text); }
+
+/* Meta line. */
+.f6.mid-gray, .mid-gray, time {
+  color: var(--c-muted) !important;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* ── Footer ────────────────────────────────────────────────────────── */
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  border-top: 1px solid var(--c-border);
+  background: var(--c-bg) !important;
+  color: var(--c-muted);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+}
+footer a { color: var(--c-text-soft) !important; }
+
+/* ── "Read more" link (text only, no box) ──────────────────────────── */
+
+section.section article a.bg-light-gray,
+article a.bg-light-gray,
+a.bg-light-gray.link {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--c-link) !important;
+  font-family: var(--font-sans);
+  font-size: 0.85rem !important;
+  font-weight: 500;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+  letter-spacing: 0.01em;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.8rem !important;
+  transition: color 0.15s ease;
+}
+section.section article a.bg-light-gray:hover,
+article a.bg-light-gray:hover,
+a.bg-light-gray.link:hover {
+  background-color: transparent !important;
+  color: var(--c-link-hover) !important;
+}
+section.section article a.bg-light-gray::after,
+article a.bg-light-gray::after,
+a.bg-light-gray.link::after {
+  content: " →";
+  margin-left: 0.25rem;
+  transition: transform 0.15s ease;
+}
+section.section article a.bg-light-gray:hover::after,
+article a.bg-light-gray:hover::after,
+a.bg-light-gray.link:hover::after {
+  transform: translateX(3px);
+}
+
+/* ── Pagination ────────────────────────────────────────────────────── */
+
+.pagination a, .pagination span {
+  font-family: var(--font-sans);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* ── Accessibility ─────────────────────────────────────────────────── */
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--c-link);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Selection ─────────────────────────────────────────────────────── */
+
+::selection {
+  background: var(--c-accent-tint);
+  color: var(--c-text);
+}
+
+/* ── Theme toggle button ───────────────────────────────────────────── */
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid var(--c-border);
+  color: var(--c-text-soft);
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 0.75rem;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 0;
+  line-height: 1;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+}
+.theme-toggle:hover {
+  border-color: var(--c-link);
+  color: var(--c-link);
+  background: var(--c-accent-tint);
+}
+.theme-toggle svg { width: 16px; height: 16px; display: block; }
+
+/* Show the right icon based on user preference (data-theme-icon). */
+.theme-toggle .ti-sun, .theme-toggle .ti-moon, .theme-toggle .ti-auto { display: none; }
+html[data-theme-icon="light"] .theme-toggle .ti-sun  { display: block; }
+html[data-theme-icon="dark"]  .theme-toggle .ti-moon { display: block; }
+html[data-theme-icon="auto"]  .theme-toggle .ti-auto { display: block; }
+
+/* ── Chroma syntax highlighting — LIGHT theme ──────────────────────── */
+/* Inspired by GitHub Light; tuned to fit cool/modern editorial palette. */
+
+.chroma                { color: #1f2328; background-color: transparent; }
+.chroma .lntd          { vertical-align: top; padding: 0; margin: 0; border: 0; }
+.chroma .lntable       { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+.chroma .hl            { background-color: #fff8c5; }
+.chroma .ln, .chroma .lnt { color: #8c959f; }
+.chroma .k, .chroma .kc, .chroma .kd, .chroma .kn, .chroma .kp, .chroma .kr { color: #cf222e; }        /* keyword */
+.chroma .kt            { color: #953800; }                                                              /* keyword type */
+.chroma .nf, .chroma .fm { color: #8250df; }                                                            /* function */
+.chroma .nc            { color: #953800; }                                                              /* class */
+.chroma .nn            { color: #24292f; }
+.chroma .nb            { color: #0550ae; }                                                              /* builtin */
+.chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi { color: #953800; }
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl, .chroma .sd,
+.chroma .s2, .chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr,
+.chroma .s1, .chroma .ss { color: #0a3069; }                                                            /* string */
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo { color: #0550ae; } /* numbers */
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1, .chroma .cs, .chroma .cp, .chroma .cpf { color: #6e7781; font-style: italic; } /* comment */
+.chroma .o, .chroma .ow { color: #cf222e; }                                                             /* operator */
+.chroma .gd            { color: #82071e; background-color: #ffebe9; }
+.chroma .gi            { color: #116329; background-color: #dafbe1; }
+.chroma .gh, .chroma .gu { color: #0550ae; font-weight: bold; }
+.chroma .err           { color: #f6f8fa; background-color: #82071e; }
+
+/* ── Chroma syntax highlighting — DARK theme ───────────────────────── */
+/* Inspired by GitHub Dark Dimmed / Tokyo Night. */
+
+html[data-theme="dark"] .chroma                { color: #c9d1d9; background-color: transparent; }
+html[data-theme="dark"] .chroma .hl            { background-color: rgba(187, 128, 9, 0.18); }
+html[data-theme="dark"] .chroma .ln,
+html[data-theme="dark"] .chroma .lnt           { color: #6e7681; }
+html[data-theme="dark"] .chroma .k,
+html[data-theme="dark"] .chroma .kc,
+html[data-theme="dark"] .chroma .kd,
+html[data-theme="dark"] .chroma .kn,
+html[data-theme="dark"] .chroma .kp,
+html[data-theme="dark"] .chroma .kr            { color: #ff7b72; }
+html[data-theme="dark"] .chroma .kt            { color: #ffa657; }
+html[data-theme="dark"] .chroma .nf,
+html[data-theme="dark"] .chroma .fm            { color: #d2a8ff; }
+html[data-theme="dark"] .chroma .nc            { color: #ffa657; }
+html[data-theme="dark"] .chroma .nn            { color: #c9d1d9; }
+html[data-theme="dark"] .chroma .nb            { color: #79c0ff; }
+html[data-theme="dark"] .chroma .nv,
+html[data-theme="dark"] .chroma .vc,
+html[data-theme="dark"] .chroma .vg,
+html[data-theme="dark"] .chroma .vi            { color: #ffa657; }
+html[data-theme="dark"] .chroma .s,
+html[data-theme="dark"] .chroma .sa,
+html[data-theme="dark"] .chroma .sb,
+html[data-theme="dark"] .chroma .sc,
+html[data-theme="dark"] .chroma .dl,
+html[data-theme="dark"] .chroma .sd,
+html[data-theme="dark"] .chroma .s2,
+html[data-theme="dark"] .chroma .se,
+html[data-theme="dark"] .chroma .sh,
+html[data-theme="dark"] .chroma .si,
+html[data-theme="dark"] .chroma .sx,
+html[data-theme="dark"] .chroma .sr,
+html[data-theme="dark"] .chroma .s1,
+html[data-theme="dark"] .chroma .ss            { color: #a5d6ff; }
+html[data-theme="dark"] .chroma .m,
+html[data-theme="dark"] .chroma .mb,
+html[data-theme="dark"] .chroma .mf,
+html[data-theme="dark"] .chroma .mh,
+html[data-theme="dark"] .chroma .mi,
+html[data-theme="dark"] .chroma .il,
+html[data-theme="dark"] .chroma .mo            { color: #79c0ff; }
+html[data-theme="dark"] .chroma .c,
+html[data-theme="dark"] .chroma .ch,
+html[data-theme="dark"] .chroma .cm,
+html[data-theme="dark"] .chroma .c1,
+html[data-theme="dark"] .chroma .cs,
+html[data-theme="dark"] .chroma .cp,
+html[data-theme="dark"] .chroma .cpf           { color: #8b949e; font-style: italic; }
+html[data-theme="dark"] .chroma .o,
+html[data-theme="dark"] .chroma .ow            { color: #ff7b72; }
+html[data-theme="dark"] .chroma .gd            { color: #ffdcd7; background-color: #67060c; }
+html[data-theme="dark"] .chroma .gi            { color: #aff5b4; background-color: #033a16; }
+html[data-theme="dark"] .chroma .gh,
+html[data-theme="dark"] .chroma .gu            { color: #79c0ff; font-weight: bold; }
+html[data-theme="dark"] .chroma .err           { color: #ffa198; background-color: #67060c; }

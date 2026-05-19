@@ -1,6 +1,6 @@
 # ref: <https://gohugo.io/getting-started/configuration/>
 baseURL: 'https://songyangyu.com/'
-languageCode: 'en-us'
+locale: 'en-us'
 title: "Yangyu's Notes"
 theme: "ananke"
 
@@ -15,7 +15,7 @@ permalinks:
 defaultContentLanguage: en
 languages:
   en:
-    languageName: "English"
+    label: "English"
     # name: "English"
     title: "Yangyu's Notes"
     contentDir: "content/english"
@@ -33,7 +33,7 @@ languages:
     title: "洋宇的笔记"
     weight: 2
     contentDir: "content/chinese"
-    languageName: "中文"
+    label: "中文"
 
     params:
       mainSections:
@@ -67,7 +67,17 @@ params:
   recent_posts_number: 10
   date_format: "2006-01-02"
 
+  ananke:
+    custom_css:
+      - custom.css
+
 markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: false
+    codeFences: true
+    guessSyntax: true
+    tabWidth: 2
